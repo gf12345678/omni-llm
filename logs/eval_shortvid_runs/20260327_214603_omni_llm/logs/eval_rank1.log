@@ -1,0 +1,799 @@
+2026-03-27 21:46:25,216 - rank1 - INFO - 进程 1/8 启动: 负责样本 397 到 794 (共 397 个)
+2026-03-27 21:46:25,216 - rank1 - INFO - [PROGRESS] WorldSense started on rank 1, local samples: 397
+2026-03-27 21:46:25,217 - rank1 - INFO - [WorldSense] Processing sample 1/397: YZGrxsiE.mp4
+2026-03-27 21:46:44,421 - rank1 - INFO - WorldSense processed YZGrxsiE.mp4: A -> D (✗)
+2026-03-27 21:46:44,421 - rank1 - INFO - [WorldSense] Processing sample 2/397: YZGrxsiE.mp4
+2026-03-27 21:47:01,335 - rank1 - INFO - WorldSense processed YZGrxsiE.mp4: D -> D (✓)
+2026-03-27 21:47:01,335 - rank1 - INFO - [WorldSense] Processing sample 3/397: DMCVJPdj.mp4
+2026-03-27 21:47:04,987 - rank1 - INFO - WorldSense processed DMCVJPdj.mp4: D -> A (✗)
+2026-03-27 21:47:04,987 - rank1 - INFO - [WorldSense] Processing sample 4/397: WPnhtfrV.mp4
+2026-03-27 21:47:09,262 - rank1 - INFO - WorldSense processed WPnhtfrV.mp4: A -> A (✓)
+2026-03-27 21:47:09,264 - rank1 - INFO - [WorldSense] Processing sample 5/397: WPnhtfrV.mp4
+2026-03-27 21:47:13,397 - rank1 - INFO - WorldSense processed WPnhtfrV.mp4: C -> B (✗)
+2026-03-27 21:47:13,397 - rank1 - INFO - [WorldSense] Processing sample 6/397: WPnhtfrV.mp4
+2026-03-27 21:47:17,582 - rank1 - INFO - WorldSense processed WPnhtfrV.mp4: D -> D (✓)
+2026-03-27 21:47:17,582 - rank1 - INFO - [WorldSense] Processing sample 7/397: NnAflpEq.mp4
+2026-03-27 21:47:21,365 - rank1 - INFO - WorldSense processed NnAflpEq.mp4: D -> C (✗)
+2026-03-27 21:47:21,365 - rank1 - INFO - [WorldSense] Processing sample 8/397: RHdUFnIx.mp4
+2026-03-27 21:47:25,118 - rank1 - INFO - WorldSense processed RHdUFnIx.mp4: A -> A (✓)
+2026-03-27 21:47:25,119 - rank1 - INFO - [WorldSense] Processing sample 9/397: pprFtmJX.mp4
+2026-03-27 21:47:44,085 - rank1 - INFO - WorldSense processed pprFtmJX.mp4: A -> C (✗)
+2026-03-27 21:47:44,086 - rank1 - INFO - [WorldSense] Processing sample 10/397: dcSdBPEm.mp4
+2026-03-27 21:47:46,572 - rank1 - INFO - WorldSense processed dcSdBPEm.mp4: C -> C (✓)
+2026-03-27 21:47:46,572 - rank1 - INFO - [WorldSense] Processing sample 11/397: dcSdBPEm.mp4
+2026-03-27 21:47:48,957 - rank1 - INFO - WorldSense processed dcSdBPEm.mp4: C -> D (✗)
+2026-03-27 21:47:48,957 - rank1 - INFO - [WorldSense] Processing sample 12/397: dcSdBPEm.mp4
+2026-03-27 21:47:51,451 - rank1 - INFO - WorldSense processed dcSdBPEm.mp4: D -> A (✗)
+2026-03-27 21:47:51,452 - rank1 - INFO - [WorldSense] Processing sample 13/397: OHnvoMwt.mp4
+2026-03-27 21:47:54,503 - rank1 - INFO - WorldSense processed OHnvoMwt.mp4: B -> B (✓)
+2026-03-27 21:47:54,503 - rank1 - INFO - [WorldSense] Processing sample 14/397: OHnvoMwt.mp4
+2026-03-27 21:47:57,580 - rank1 - INFO - WorldSense processed OHnvoMwt.mp4: C -> A (✗)
+2026-03-27 21:47:57,581 - rank1 - INFO - [WorldSense] Processing sample 15/397: scKLkPwA.mp4
+2026-03-27 21:48:03,464 - rank1 - INFO - WorldSense processed scKLkPwA.mp4: C -> B (✗)
+2026-03-27 21:48:03,464 - rank1 - INFO - [WorldSense] Processing sample 16/397: VODOJrbf.mp4
+2026-03-27 21:48:10,276 - rank1 - INFO - WorldSense processed VODOJrbf.mp4: C -> B (✗)
+2026-03-27 21:48:10,276 - rank1 - INFO - [WorldSense] Processing sample 17/397: VODOJrbf.mp4
+2026-03-27 21:48:17,204 - rank1 - INFO - WorldSense processed VODOJrbf.mp4: A -> C (✗)
+2026-03-27 21:48:17,204 - rank1 - INFO - [WorldSense] Processing sample 18/397: ZRcNsILH.mp4
+2026-03-27 21:48:21,138 - rank1 - INFO - WorldSense processed ZRcNsILH.mp4: D -> A (✗)
+2026-03-27 21:48:21,139 - rank1 - INFO - [WorldSense] Processing sample 19/397: ZRcNsILH.mp4
+2026-03-27 21:48:24,994 - rank1 - INFO - WorldSense processed ZRcNsILH.mp4: D -> A (✗)
+2026-03-27 21:48:24,994 - rank1 - INFO - [WorldSense] Processing sample 20/397: fufIXctz.mp4
+2026-03-27 21:48:32,734 - rank1 - INFO - WorldSense processed fufIXctz.mp4: D -> D (✓)
+2026-03-27 21:48:32,734 - rank1 - INFO - [WorldSense] Processing sample 21/397: ISjHoLoB.mp4
+2026-03-27 21:48:52,080 - rank1 - INFO - WorldSense processed ISjHoLoB.mp4: B -> A (✗)
+2026-03-27 21:48:52,080 - rank1 - INFO - [WorldSense] Processing sample 22/397: ISjHoLoB.mp4
+2026-03-27 21:49:11,186 - rank1 - INFO - WorldSense processed ISjHoLoB.mp4: D -> A (✗)
+2026-03-27 21:49:11,188 - rank1 - INFO - [WorldSense] Processing sample 23/397: ISjHoLoB.mp4
+2026-03-27 21:49:30,420 - rank1 - INFO - WorldSense processed ISjHoLoB.mp4: A -> A (✓)
+2026-03-27 21:49:30,420 - rank1 - INFO - [WorldSense] Processing sample 24/397: AiUECjgF.mp4
+2026-03-27 21:49:52,811 - rank1 - INFO - WorldSense processed AiUECjgF.mp4: A -> A (✓)
+2026-03-27 21:49:52,811 - rank1 - INFO - [WorldSense] Processing sample 25/397: AiUECjgF.mp4
+2026-03-27 21:50:14,945 - rank1 - INFO - WorldSense processed AiUECjgF.mp4: C -> C (✓)
+2026-03-27 21:50:14,945 - rank1 - INFO - [WorldSense] Processing sample 26/397: AiUECjgF.mp4
+2026-03-27 21:50:37,195 - rank1 - INFO - WorldSense processed AiUECjgF.mp4: C -> B (✗)
+2026-03-27 21:50:37,195 - rank1 - INFO - [WorldSense] Processing sample 27/397: NBhvskGP.mp4
+2026-03-27 21:50:56,359 - rank1 - INFO - WorldSense processed NBhvskGP.mp4: B -> D (✗)
+2026-03-27 21:50:56,359 - rank1 - INFO - [WorldSense] Processing sample 28/397: hYXTtYsk.mp4
+2026-03-27 21:51:07,454 - rank1 - INFO - WorldSense processed hYXTtYsk.mp4: C -> B (✗)
+2026-03-27 21:51:07,454 - rank1 - INFO - [WorldSense] Processing sample 29/397: hYXTtYsk.mp4
+2026-03-27 21:51:18,471 - rank1 - INFO - WorldSense processed hYXTtYsk.mp4: A -> C (✗)
+2026-03-27 21:51:18,471 - rank1 - INFO - [WorldSense] Processing sample 30/397: hYXTtYsk.mp4
+2026-03-27 21:51:29,454 - rank1 - INFO - WorldSense processed hYXTtYsk.mp4: D -> D (✓)
+2026-03-27 21:51:29,454 - rank1 - INFO - [WorldSense] Processing sample 31/397: dMgNJpGm.mp4
+2026-03-27 21:51:35,352 - rank1 - INFO - WorldSense processed dMgNJpGm.mp4: C -> C (✓)
+2026-03-27 21:51:35,352 - rank1 - INFO - [WorldSense] Processing sample 32/397: eLDjltll.mp4
+2026-03-27 21:51:37,682 - rank1 - INFO - WorldSense processed eLDjltll.mp4: D -> D (✓)
+2026-03-27 21:51:37,682 - rank1 - INFO - [WorldSense] Processing sample 33/397: eLDjltll.mp4
+2026-03-27 21:51:40,010 - rank1 - INFO - WorldSense processed eLDjltll.mp4: D -> D (✓)
+2026-03-27 21:51:40,011 - rank1 - INFO - [WorldSense] Processing sample 34/397: eLDjltll.mp4
+2026-03-27 21:51:42,377 - rank1 - INFO - WorldSense processed eLDjltll.mp4: B -> B (✓)
+2026-03-27 21:51:42,377 - rank1 - INFO - [WorldSense] Processing sample 35/397: eLDjltll.mp4
+2026-03-27 21:51:44,776 - rank1 - INFO - WorldSense processed eLDjltll.mp4: C -> C (✓)
+2026-03-27 21:51:44,776 - rank1 - INFO - [WorldSense] Processing sample 36/397: FLgWECZZ.mp4
+2026-03-27 21:51:50,539 - rank1 - INFO - WorldSense processed FLgWECZZ.mp4: C -> C (✓)
+2026-03-27 21:51:50,539 - rank1 - INFO - [WorldSense] Processing sample 37/397: FLgWECZZ.mp4
+2026-03-27 21:51:56,358 - rank1 - INFO - WorldSense processed FLgWECZZ.mp4: B -> B (✓)
+2026-03-27 21:51:56,358 - rank1 - INFO - [WorldSense] Processing sample 38/397: FLgWECZZ.mp4
+2026-03-27 21:52:02,044 - rank1 - INFO - WorldSense processed FLgWECZZ.mp4: A -> B (✗)
+2026-03-27 21:52:02,044 - rank1 - INFO - [WorldSense] Processing sample 39/397: mMcrXfup.mp4
+2026-03-27 21:52:09,002 - rank1 - INFO - WorldSense processed mMcrXfup.mp4: A -> D (✗)
+2026-03-27 21:52:09,002 - rank1 - INFO - [WorldSense] Processing sample 40/397: mMcrXfup.mp4
+2026-03-27 21:52:15,754 - rank1 - INFO - WorldSense processed mMcrXfup.mp4: B -> D (✗)
+2026-03-27 21:52:15,754 - rank1 - INFO - [WorldSense] Processing sample 41/397: mMcrXfup.mp4
+2026-03-27 21:52:22,494 - rank1 - INFO - WorldSense processed mMcrXfup.mp4: B -> B (✓)
+2026-03-27 21:52:22,494 - rank1 - INFO - [WorldSense] Processing sample 42/397: QIouYHhc.mp4
+2026-03-27 21:52:32,983 - rank1 - INFO - WorldSense processed QIouYHhc.mp4: B -> B (✓)
+2026-03-27 21:52:32,983 - rank1 - INFO - [WorldSense] Processing sample 43/397: QIouYHhc.mp4
+2026-03-27 21:52:43,731 - rank1 - INFO - WorldSense processed QIouYHhc.mp4: A -> B (✗)
+2026-03-27 21:52:43,732 - rank1 - INFO - [WorldSense] Processing sample 44/397: QIouYHhc.mp4
+2026-03-27 21:52:54,444 - rank1 - INFO - WorldSense processed QIouYHhc.mp4: B -> B (✓)
+2026-03-27 21:52:54,445 - rank1 - INFO - [WorldSense] Processing sample 45/397: QNdjTPvE.mp4
+2026-03-27 21:53:01,062 - rank1 - INFO - WorldSense processed QNdjTPvE.mp4: A -> A (✓)
+2026-03-27 21:53:01,063 - rank1 - INFO - [WorldSense] Processing sample 46/397: QNdjTPvE.mp4
+2026-03-27 21:53:07,643 - rank1 - INFO - WorldSense processed QNdjTPvE.mp4: A -> A (✓)
+2026-03-27 21:53:07,643 - rank1 - INFO - [WorldSense] Processing sample 47/397: QNdjTPvE.mp4
+2026-03-27 21:53:14,254 - rank1 - INFO - WorldSense processed QNdjTPvE.mp4: B -> D (✗)
+2026-03-27 21:53:14,254 - rank1 - INFO - [WorldSense] Processing sample 48/397: ZATdpNTJ.mp4
+2026-03-27 21:53:36,158 - rank1 - INFO - WorldSense processed ZATdpNTJ.mp4: B -> C (✗)
+2026-03-27 21:53:36,158 - rank1 - INFO - [WorldSense] Processing sample 49/397: qPyJMJre.mp4
+2026-03-27 21:53:58,213 - rank1 - INFO - WorldSense processed qPyJMJre.mp4: B -> A (✗)
+2026-03-27 21:53:58,213 - rank1 - INFO - [WorldSense] Processing sample 50/397: qPyJMJre.mp4
+2026-03-27 21:54:20,845 - rank1 - INFO - WorldSense processed qPyJMJre.mp4: A -> B (✗)
+2026-03-27 21:54:20,846 - rank1 - INFO - [WorldSense] Processing sample 51/397: gnSnBGYp.mp4
+2026-03-27 21:54:43,292 - rank1 - INFO - WorldSense processed gnSnBGYp.mp4: C -> B (✗)
+2026-03-27 21:54:43,293 - rank1 - INFO - [WorldSense] Processing sample 52/397: gnSnBGYp.mp4
+2026-03-27 21:55:06,032 - rank1 - INFO - WorldSense processed gnSnBGYp.mp4: C -> C (✓)
+2026-03-27 21:55:06,033 - rank1 - INFO - [WorldSense] Processing sample 53/397: vfneWNFi.mp4
+2026-03-27 21:55:15,803 - rank1 - INFO - WorldSense processed vfneWNFi.mp4: D -> D (✓)
+2026-03-27 21:55:15,803 - rank1 - INFO - [WorldSense] Processing sample 54/397: vfneWNFi.mp4
+2026-03-27 21:55:25,580 - rank1 - INFO - WorldSense processed vfneWNFi.mp4: A -> A (✓)
+2026-03-27 21:55:25,580 - rank1 - INFO - [WorldSense] Processing sample 55/397: MeNYLOIW.mp4
+2026-03-27 21:55:31,639 - rank1 - INFO - WorldSense processed MeNYLOIW.mp4: D -> C (✗)
+2026-03-27 21:55:31,639 - rank1 - INFO - [WorldSense] Processing sample 56/397: FltEpGtA.mp4
+2026-03-27 21:55:35,445 - rank1 - INFO - WorldSense processed FltEpGtA.mp4: B -> A (✗)
+2026-03-27 21:55:35,445 - rank1 - INFO - [WorldSense] Processing sample 57/397: zetwUmDH.mp4
+2026-03-27 21:55:40,256 - rank1 - INFO - WorldSense processed zetwUmDH.mp4: B -> B (✓)
+2026-03-27 21:55:40,256 - rank1 - INFO - [WorldSense] Processing sample 58/397: zetwUmDH.mp4
+2026-03-27 21:55:45,048 - rank1 - INFO - WorldSense processed zetwUmDH.mp4: B -> B (✓)
+2026-03-27 21:55:45,048 - rank1 - INFO - [WorldSense] Processing sample 59/397: zetwUmDH.mp4
+2026-03-27 21:55:49,998 - rank1 - INFO - WorldSense processed zetwUmDH.mp4: B -> A (✗)
+2026-03-27 21:55:49,998 - rank1 - INFO - [WorldSense] Processing sample 60/397: GIfKJExJ.mp4
+2026-03-27 21:55:57,607 - rank1 - INFO - WorldSense processed GIfKJExJ.mp4: A -> C (✗)
+2026-03-27 21:55:57,607 - rank1 - INFO - [WorldSense] Processing sample 61/397: GIfKJExJ.mp4
+2026-03-27 21:56:05,008 - rank1 - INFO - WorldSense processed GIfKJExJ.mp4: C -> B (✗)
+2026-03-27 21:56:05,008 - rank1 - INFO - [WorldSense] Processing sample 62/397: nxzOLWjJ.mp4
+2026-03-27 21:56:10,659 - rank1 - INFO - WorldSense processed nxzOLWjJ.mp4: C -> B (✗)
+2026-03-27 21:56:10,659 - rank1 - INFO - [WorldSense] Processing sample 63/397: nxzOLWjJ.mp4
+2026-03-27 21:56:16,415 - rank1 - INFO - WorldSense processed nxzOLWjJ.mp4: A -> A (✓)
+2026-03-27 21:56:16,415 - rank1 - INFO - [WorldSense] Processing sample 64/397: nxzOLWjJ.mp4
+2026-03-27 21:56:22,191 - rank1 - INFO - WorldSense processed nxzOLWjJ.mp4: A -> B (✗)
+2026-03-27 21:56:22,191 - rank1 - INFO - [WorldSense] Processing sample 65/397: taCZdrFA.mp4
+2026-03-27 21:56:25,154 - rank1 - INFO - WorldSense processed taCZdrFA.mp4: D -> C (✗)
+2026-03-27 21:56:25,154 - rank1 - INFO - [WorldSense] Processing sample 66/397: rXfMpPyy.mp4
+2026-03-27 21:56:28,791 - rank1 - INFO - WorldSense processed rXfMpPyy.mp4: A -> A (✓)
+2026-03-27 21:56:28,791 - rank1 - INFO - [WorldSense] Processing sample 67/397: lWfjIHMx.mp4
+2026-03-27 21:56:33,519 - rank1 - INFO - WorldSense processed lWfjIHMx.mp4: C -> B (✗)
+2026-03-27 21:56:33,519 - rank1 - INFO - [WorldSense] Processing sample 68/397: MWAuZEiu.mp4
+2026-03-27 21:56:39,987 - rank1 - INFO - WorldSense processed MWAuZEiu.mp4: B -> B (✓)
+2026-03-27 21:56:39,988 - rank1 - INFO - [WorldSense] Processing sample 69/397: pEBaVsTr.mp4
+2026-03-27 21:56:54,277 - rank1 - INFO - WorldSense processed pEBaVsTr.mp4: B -> D (✗)
+2026-03-27 21:56:54,277 - rank1 - INFO - [WorldSense] Processing sample 70/397: pEBaVsTr.mp4
+2026-03-27 21:57:08,604 - rank1 - INFO - WorldSense processed pEBaVsTr.mp4: D -> B (✗)
+2026-03-27 21:57:08,604 - rank1 - INFO - [WorldSense] Processing sample 71/397: pEBaVsTr.mp4
+2026-03-27 21:57:22,928 - rank1 - INFO - WorldSense processed pEBaVsTr.mp4: C -> C (✓)
+2026-03-27 21:57:22,929 - rank1 - INFO - [WorldSense] Processing sample 72/397: pEBaVsTr.mp4
+2026-03-27 21:57:37,380 - rank1 - INFO - WorldSense processed pEBaVsTr.mp4: B -> C (✗)
+2026-03-27 21:57:37,380 - rank1 - INFO - [WorldSense] Processing sample 73/397: rsIdEXEM.mp4
+2026-03-27 21:57:41,044 - rank1 - INFO - WorldSense processed rsIdEXEM.mp4: A -> A (✓)
+2026-03-27 21:57:41,045 - rank1 - INFO - [WorldSense] Processing sample 74/397: rsIdEXEM.mp4
+2026-03-27 21:57:44,601 - rank1 - INFO - WorldSense processed rsIdEXEM.mp4: D -> C (✗)
+2026-03-27 21:57:44,602 - rank1 - INFO - [WorldSense] Processing sample 75/397: rsIdEXEM.mp4
+2026-03-27 21:57:48,287 - rank1 - INFO - WorldSense processed rsIdEXEM.mp4: B -> C (✗)
+2026-03-27 21:57:48,287 - rank1 - INFO - [WorldSense] Processing sample 76/397: LeFssVGH.mp4
+2026-03-27 21:57:51,287 - rank1 - INFO - WorldSense processed LeFssVGH.mp4: B -> D (✗)
+2026-03-27 21:57:51,287 - rank1 - INFO - [WorldSense] Processing sample 77/397: pLyiJQzf.mp4
+2026-03-27 21:58:04,414 - rank1 - INFO - WorldSense processed pLyiJQzf.mp4: C -> A (✗)
+2026-03-27 21:58:04,416 - rank1 - INFO - [WorldSense] Processing sample 78/397: AHcfQMNu.mp4
+2026-03-27 21:58:19,138 - rank1 - INFO - WorldSense processed AHcfQMNu.mp4: A -> A (✓)
+2026-03-27 21:58:19,138 - rank1 - INFO - [WorldSense] Processing sample 79/397: AHcfQMNu.mp4
+2026-03-27 21:58:33,929 - rank1 - INFO - WorldSense processed AHcfQMNu.mp4: A -> B (✗)
+2026-03-27 21:58:33,930 - rank1 - INFO - [WorldSense] Processing sample 80/397: geBYSdUC.mp4
+2026-03-27 21:58:40,194 - rank1 - INFO - WorldSense processed geBYSdUC.mp4: C -> B (✗)
+2026-03-27 21:58:40,195 - rank1 - INFO - [WorldSense] Processing sample 81/397: geBYSdUC.mp4
+2026-03-27 21:58:46,530 - rank1 - INFO - WorldSense processed geBYSdUC.mp4: A -> D (✗)
+2026-03-27 21:58:46,530 - rank1 - INFO - [WorldSense] Processing sample 82/397: geBYSdUC.mp4
+2026-03-27 21:58:52,962 - rank1 - INFO - WorldSense processed geBYSdUC.mp4: B -> C (✗)
+2026-03-27 21:58:52,962 - rank1 - INFO - [WorldSense] Processing sample 83/397: cgTOPiPf.mp4
+2026-03-27 21:59:00,521 - rank1 - INFO - WorldSense processed cgTOPiPf.mp4: A -> A (✓)
+2026-03-27 21:59:00,521 - rank1 - INFO - [WorldSense] Processing sample 84/397: ECRaxgHh.mp4
+2026-03-27 21:59:06,360 - rank1 - INFO - WorldSense processed ECRaxgHh.mp4: B -> A (✗)
+2026-03-27 21:59:06,360 - rank1 - INFO - [WorldSense] Processing sample 85/397: tBTQfDVX.mp4
+2026-03-27 21:59:10,294 - rank1 - INFO - WorldSense processed tBTQfDVX.mp4: C -> C (✓)
+2026-03-27 21:59:10,295 - rank1 - INFO - [WorldSense] Processing sample 86/397: tBTQfDVX.mp4
+2026-03-27 21:59:14,204 - rank1 - INFO - WorldSense processed tBTQfDVX.mp4: D -> C (✗)
+2026-03-27 21:59:14,204 - rank1 - INFO - [WorldSense] Processing sample 87/397: tBTQfDVX.mp4
+2026-03-27 21:59:17,919 - rank1 - INFO - WorldSense processed tBTQfDVX.mp4: D -> B (✗)
+2026-03-27 21:59:17,919 - rank1 - INFO - [WorldSense] Processing sample 88/397: mkxLykfz.mp4
+2026-03-27 21:59:33,538 - rank1 - INFO - WorldSense processed mkxLykfz.mp4: B -> A (✗)
+2026-03-27 21:59:33,538 - rank1 - INFO - [WorldSense] Processing sample 89/397: mkxLykfz.mp4
+2026-03-27 21:59:49,373 - rank1 - INFO - WorldSense processed mkxLykfz.mp4: B -> D (✗)
+2026-03-27 21:59:49,373 - rank1 - INFO - [WorldSense] Processing sample 90/397: NBjkKJhm.mp4
+2026-03-27 21:59:55,713 - rank1 - INFO - WorldSense processed NBjkKJhm.mp4: C -> C (✓)
+2026-03-27 21:59:55,714 - rank1 - INFO - [WorldSense] Processing sample 91/397: NBjkKJhm.mp4
+2026-03-27 22:00:01,917 - rank1 - INFO - WorldSense processed NBjkKJhm.mp4: B -> B (✓)
+2026-03-27 22:00:01,917 - rank1 - INFO - [WorldSense] Processing sample 92/397: NBjkKJhm.mp4
+2026-03-27 22:00:08,005 - rank1 - INFO - WorldSense processed NBjkKJhm.mp4: B -> B (✓)
+2026-03-27 22:00:08,006 - rank1 - INFO - [WorldSense] Processing sample 93/397: fZraANmy.mp4
+2026-03-27 22:00:11,871 - rank1 - INFO - WorldSense processed fZraANmy.mp4: A -> D (✗)
+2026-03-27 22:00:11,871 - rank1 - INFO - [WorldSense] Processing sample 94/397: MmRBiRGc.mp4
+2026-03-27 22:00:24,675 - rank1 - INFO - WorldSense processed MmRBiRGc.mp4: D -> D (✓)
+2026-03-27 22:00:24,675 - rank1 - INFO - [WorldSense] Processing sample 95/397: bxWbXPdv.mp4
+2026-03-27 22:00:27,909 - rank1 - INFO - WorldSense processed bxWbXPdv.mp4: B -> A (✗)
+2026-03-27 22:00:27,909 - rank1 - INFO - [WorldSense] Processing sample 96/397: eNnyPjlG.mp4
+2026-03-27 22:00:36,053 - rank1 - INFO - WorldSense processed eNnyPjlG.mp4: B -> B (✓)
+2026-03-27 22:00:36,054 - rank1 - INFO - [WorldSense] Processing sample 97/397: eBdFvqdb.mp4
+2026-03-27 22:00:39,758 - rank1 - INFO - WorldSense processed eBdFvqdb.mp4: C -> B (✗)
+2026-03-27 22:00:39,758 - rank1 - INFO - [WorldSense] Processing sample 98/397: eBdFvqdb.mp4
+2026-03-27 22:00:43,415 - rank1 - INFO - WorldSense processed eBdFvqdb.mp4: D -> D (✓)
+2026-03-27 22:00:43,415 - rank1 - INFO - [WorldSense] Processing sample 99/397: eBdFvqdb.mp4
+2026-03-27 22:00:47,235 - rank1 - INFO - WorldSense processed eBdFvqdb.mp4: C -> C (✓)
+2026-03-27 22:00:47,235 - rank1 - INFO - [WorldSense] Processing sample 100/397: eBdFvqdb.mp4
+2026-03-27 22:00:50,941 - rank1 - INFO - WorldSense processed eBdFvqdb.mp4: C -> B (✗)
+2026-03-27 22:00:50,941 - rank1 - INFO - [WorldSense] Processing sample 101/397: jYrthEYL.mp4
+2026-03-27 22:00:54,507 - rank1 - INFO - WorldSense processed jYrthEYL.mp4: D -> A (✗)
+2026-03-27 22:00:54,507 - rank1 - INFO - [WorldSense] Processing sample 102/397: UItmoRNs.mp4
+2026-03-27 22:00:59,375 - rank1 - INFO - WorldSense processed UItmoRNs.mp4: B -> B (✓)
+2026-03-27 22:00:59,375 - rank1 - INFO - [WorldSense] Processing sample 103/397: ePomGDPj.mp4
+2026-03-27 22:01:02,367 - rank1 - INFO - WorldSense processed ePomGDPj.mp4: D -> D (✓)
+2026-03-27 22:01:02,367 - rank1 - INFO - [WorldSense] Processing sample 104/397: ePomGDPj.mp4
+2026-03-27 22:01:05,508 - rank1 - INFO - WorldSense processed ePomGDPj.mp4: C -> C (✓)
+2026-03-27 22:01:05,508 - rank1 - INFO - [WorldSense] Processing sample 105/397: ePomGDPj.mp4
+2026-03-27 22:01:08,522 - rank1 - INFO - WorldSense processed ePomGDPj.mp4: A -> A (✓)
+2026-03-27 22:01:08,522 - rank1 - INFO - [WorldSense] Processing sample 106/397: tQjULUpl.mp4
+2026-03-27 22:01:15,912 - rank1 - INFO - WorldSense processed tQjULUpl.mp4: C -> C (✓)
+2026-03-27 22:01:15,912 - rank1 - INFO - [WorldSense] Processing sample 107/397: tQjULUpl.mp4
+2026-03-27 22:01:23,159 - rank1 - INFO - WorldSense processed tQjULUpl.mp4: B -> B (✓)
+2026-03-27 22:01:23,160 - rank1 - INFO - [WorldSense] Processing sample 108/397: pDxKVQaX.mp4
+2026-03-27 22:01:26,822 - rank1 - INFO - WorldSense processed pDxKVQaX.mp4: B -> B (✓)
+2026-03-27 22:01:26,822 - rank1 - INFO - [WorldSense] Processing sample 109/397: QJDFnwrm.mp4
+2026-03-27 22:01:30,560 - rank1 - INFO - WorldSense processed QJDFnwrm.mp4: D -> C (✗)
+2026-03-27 22:01:30,560 - rank1 - INFO - [WorldSense] Processing sample 110/397: CbtwvFWc.mp4
+2026-03-27 22:01:35,769 - rank1 - INFO - WorldSense processed CbtwvFWc.mp4: D -> D (✓)
+2026-03-27 22:01:35,770 - rank1 - INFO - [WorldSense] Processing sample 111/397: CbtwvFWc.mp4
+2026-03-27 22:01:41,029 - rank1 - INFO - WorldSense processed CbtwvFWc.mp4: A -> C (✗)
+2026-03-27 22:01:41,029 - rank1 - INFO - [WorldSense] Processing sample 112/397: fkCrIHyu.mp4
+2026-03-27 22:01:49,219 - rank1 - INFO - WorldSense processed fkCrIHyu.mp4: C -> C (✓)
+2026-03-27 22:01:49,219 - rank1 - INFO - [WorldSense] Processing sample 113/397: izyCUIrs.mp4
+2026-03-27 22:01:51,995 - rank1 - INFO - WorldSense processed izyCUIrs.mp4: A -> A (✓)
+2026-03-27 22:01:51,996 - rank1 - INFO - [WorldSense] Processing sample 114/397: izyCUIrs.mp4
+2026-03-27 22:01:54,699 - rank1 - INFO - WorldSense processed izyCUIrs.mp4: C -> C (✓)
+2026-03-27 22:01:54,699 - rank1 - INFO - [WorldSense] Processing sample 115/397: TIyjKrir.mp4
+2026-03-27 22:02:16,315 - rank1 - INFO - WorldSense processed TIyjKrir.mp4: C -> C (✓)
+2026-03-27 22:02:16,315 - rank1 - INFO - [WorldSense] Processing sample 116/397: TIyjKrir.mp4
+2026-03-27 22:02:37,868 - rank1 - INFO - WorldSense processed TIyjKrir.mp4: B -> B (✓)
+2026-03-27 22:02:37,869 - rank1 - INFO - [WorldSense] Processing sample 117/397: uCSbaAHT.mp4
+2026-03-27 22:02:41,133 - rank1 - INFO - WorldSense processed uCSbaAHT.mp4: D -> A (✗)
+2026-03-27 22:02:41,133 - rank1 - INFO - [WorldSense] Processing sample 118/397: uCSbaAHT.mp4
+2026-03-27 22:02:44,347 - rank1 - INFO - WorldSense processed uCSbaAHT.mp4: C -> B (✗)
+2026-03-27 22:02:44,347 - rank1 - INFO - [WorldSense] Processing sample 119/397: YUTPpLvp.mp4
+2026-03-27 22:02:58,969 - rank1 - INFO - WorldSense processed YUTPpLvp.mp4: D -> D (✓)
+2026-03-27 22:02:58,971 - rank1 - INFO - [WorldSense] Processing sample 120/397: YUTPpLvp.mp4
+2026-03-27 22:03:13,779 - rank1 - INFO - WorldSense processed YUTPpLvp.mp4: B -> B (✓)
+2026-03-27 22:03:13,779 - rank1 - INFO - [WorldSense] Processing sample 121/397: dUGXVmDm.mp4
+2026-03-27 22:03:17,590 - rank1 - INFO - WorldSense processed dUGXVmDm.mp4: B -> B (✓)
+2026-03-27 22:03:17,590 - rank1 - INFO - [WorldSense] Processing sample 122/397: YGhXDutS.mp4
+2026-03-27 22:03:35,651 - rank1 - INFO - WorldSense processed YGhXDutS.mp4: A -> A (✓)
+2026-03-27 22:03:35,651 - rank1 - INFO - [WorldSense] Processing sample 123/397: YGhXDutS.mp4
+2026-03-27 22:03:53,975 - rank1 - INFO - WorldSense processed YGhXDutS.mp4: A -> A (✓)
+2026-03-27 22:03:53,975 - rank1 - INFO - [WorldSense] Processing sample 124/397: ONjOsTJt.mp4
+2026-03-27 22:03:57,640 - rank1 - INFO - WorldSense processed ONjOsTJt.mp4: A -> A (✓)
+2026-03-27 22:03:57,640 - rank1 - INFO - [WorldSense] Processing sample 125/397: TxUufWUR.mp4
+2026-03-27 22:04:04,584 - rank1 - INFO - WorldSense processed TxUufWUR.mp4: D -> D (✓)
+2026-03-27 22:04:04,584 - rank1 - INFO - [WorldSense] Processing sample 126/397: TxUufWUR.mp4
+2026-03-27 22:04:11,425 - rank1 - INFO - WorldSense processed TxUufWUR.mp4: A -> A (✓)
+2026-03-27 22:04:11,425 - rank1 - INFO - [WorldSense] Processing sample 127/397: ymEposCa.mp4
+2026-03-27 22:04:15,694 - rank1 - INFO - WorldSense processed ymEposCa.mp4: B -> B (✓)
+2026-03-27 22:04:15,694 - rank1 - INFO - [WorldSense] Processing sample 128/397: ymEposCa.mp4
+2026-03-27 22:04:20,036 - rank1 - INFO - WorldSense processed ymEposCa.mp4: B -> B (✓)
+2026-03-27 22:04:20,037 - rank1 - INFO - [WorldSense] Processing sample 129/397: ymEposCa.mp4
+2026-03-27 22:04:24,324 - rank1 - INFO - WorldSense processed ymEposCa.mp4: A -> A (✓)
+2026-03-27 22:04:24,325 - rank1 - INFO - [WorldSense] Processing sample 130/397: NIMhhcYe.mp4
+2026-03-27 22:04:30,049 - rank1 - INFO - WorldSense processed NIMhhcYe.mp4: A -> D (✗)
+2026-03-27 22:04:30,049 - rank1 - INFO - [WorldSense] Processing sample 131/397: NIMhhcYe.mp4
+2026-03-27 22:04:35,795 - rank1 - INFO - WorldSense processed NIMhhcYe.mp4: B -> D (✗)
+2026-03-27 22:04:35,795 - rank1 - INFO - [WorldSense] Processing sample 132/397: PqdPigCf.mp4
+2026-03-27 22:04:43,257 - rank1 - INFO - WorldSense processed PqdPigCf.mp4: D -> D (✓)
+2026-03-27 22:04:43,257 - rank1 - INFO - [WorldSense] Processing sample 133/397: PqdPigCf.mp4
+2026-03-27 22:04:50,584 - rank1 - INFO - WorldSense processed PqdPigCf.mp4: A -> A (✓)
+2026-03-27 22:04:50,584 - rank1 - INFO - [WorldSense] Processing sample 134/397: PqdPigCf.mp4
+2026-03-27 22:04:58,002 - rank1 - INFO - WorldSense processed PqdPigCf.mp4: C -> D (✗)
+2026-03-27 22:04:58,002 - rank1 - INFO - [WorldSense] Processing sample 135/397: FdjbERgJ.mp4
+2026-03-27 22:05:00,714 - rank1 - INFO - WorldSense processed FdjbERgJ.mp4: D -> B (✗)
+2026-03-27 22:05:00,714 - rank1 - INFO - [WorldSense] Processing sample 136/397: gyqldzOm.mp4
+2026-03-27 22:05:04,371 - rank1 - INFO - WorldSense processed gyqldzOm.mp4: B -> B (✓)
+2026-03-27 22:05:04,371 - rank1 - INFO - [WorldSense] Processing sample 137/397: KJrqxwgu.mp4
+2026-03-27 22:05:06,297 - rank1 - INFO - WorldSense processed KJrqxwgu.mp4: C -> C (✓)
+2026-03-27 22:05:06,297 - rank1 - INFO - [WorldSense] Processing sample 138/397: KJrqxwgu.mp4
+2026-03-27 22:05:08,286 - rank1 - INFO - WorldSense processed KJrqxwgu.mp4: D -> C (✗)
+2026-03-27 22:05:08,286 - rank1 - INFO - [WorldSense] Processing sample 139/397: SKpdjxSA.mp4
+2026-03-27 22:05:16,332 - rank1 - INFO - WorldSense processed SKpdjxSA.mp4: D -> A (✗)
+2026-03-27 22:05:16,332 - rank1 - INFO - [WorldSense] Processing sample 140/397: SKpdjxSA.mp4
+2026-03-27 22:05:24,335 - rank1 - INFO - WorldSense processed SKpdjxSA.mp4: A -> C (✗)
+2026-03-27 22:05:24,336 - rank1 - INFO - [WorldSense] Processing sample 141/397: eWCFtynR.mp4
+2026-03-27 22:05:28,104 - rank1 - INFO - WorldSense processed eWCFtynR.mp4: B -> A (✗)
+2026-03-27 22:05:28,104 - rank1 - INFO - [WorldSense] Processing sample 142/397: eWCFtynR.mp4
+2026-03-27 22:05:31,890 - rank1 - INFO - WorldSense processed eWCFtynR.mp4: C -> A (✗)
+2026-03-27 22:05:31,891 - rank1 - INFO - [WorldSense] Processing sample 143/397: IvzBEWnV.mp4
+2026-03-27 22:05:35,617 - rank1 - INFO - WorldSense processed IvzBEWnV.mp4: A -> B (✗)
+2026-03-27 22:05:35,617 - rank1 - INFO - [WorldSense] Processing sample 144/397: nWavCdFB.mp4
+2026-03-27 22:05:39,353 - rank1 - INFO - WorldSense processed nWavCdFB.mp4: C -> A (✗)
+2026-03-27 22:05:39,354 - rank1 - INFO - [WorldSense] Processing sample 145/397: OWGHZenn.mp4
+2026-03-27 22:06:02,108 - rank1 - INFO - WorldSense processed OWGHZenn.mp4: A -> B (✗)
+2026-03-27 22:06:02,109 - rank1 - INFO - [WorldSense] Processing sample 146/397: OWGHZenn.mp4
+2026-03-27 22:06:24,741 - rank1 - INFO - WorldSense processed OWGHZenn.mp4: D -> A (✗)
+2026-03-27 22:06:24,742 - rank1 - INFO - [WorldSense] Processing sample 147/397: VLcfNbrH.mp4
+2026-03-27 22:06:28,459 - rank1 - INFO - WorldSense processed VLcfNbrH.mp4: B -> C (✗)
+2026-03-27 22:06:28,459 - rank1 - INFO - [WorldSense] Processing sample 148/397: yulhbZOp.mp4
+2026-03-27 22:06:32,094 - rank1 - INFO - WorldSense processed yulhbZOp.mp4: C -> C (✓)
+2026-03-27 22:06:32,094 - rank1 - INFO - [WorldSense] Processing sample 149/397: XVwxNKuv.mp4
+2026-03-27 22:06:36,716 - rank1 - INFO - WorldSense processed XVwxNKuv.mp4: B -> A (✗)
+2026-03-27 22:06:36,716 - rank1 - INFO - [WorldSense] Processing sample 150/397: XVwxNKuv.mp4
+2026-03-27 22:06:41,305 - rank1 - INFO - WorldSense processed XVwxNKuv.mp4: C -> A (✗)
+2026-03-27 22:06:41,306 - rank1 - INFO - [WorldSense] Processing sample 151/397: gBswQiaB.mp4
+2026-03-27 22:07:04,294 - rank1 - INFO - WorldSense processed gBswQiaB.mp4: C -> D (✗)
+2026-03-27 22:07:04,294 - rank1 - INFO - [WorldSense] Processing sample 152/397: gBswQiaB.mp4
+2026-03-27 22:07:27,206 - rank1 - INFO - WorldSense processed gBswQiaB.mp4: D -> D (✓)
+2026-03-27 22:07:27,207 - rank1 - INFO - [WorldSense] Processing sample 153/397: gBswQiaB.mp4
+2026-03-27 22:07:49,660 - rank1 - INFO - WorldSense processed gBswQiaB.mp4: C -> C (✓)
+2026-03-27 22:07:49,660 - rank1 - INFO - [WorldSense] Processing sample 154/397: StYFklhZ.mp4
+2026-03-27 22:07:53,060 - rank1 - INFO - WorldSense processed StYFklhZ.mp4: B -> C (✗)
+2026-03-27 22:07:53,060 - rank1 - INFO - [WorldSense] Processing sample 155/397: StYFklhZ.mp4
+2026-03-27 22:07:56,448 - rank1 - INFO - WorldSense processed StYFklhZ.mp4: B -> C (✗)
+2026-03-27 22:07:56,448 - rank1 - INFO - [WorldSense] Processing sample 156/397: StYFklhZ.mp4
+2026-03-27 22:07:59,812 - rank1 - INFO - WorldSense processed StYFklhZ.mp4: D -> A (✗)
+2026-03-27 22:07:59,813 - rank1 - INFO - [WorldSense] Processing sample 157/397: StYFklhZ.mp4
+2026-03-27 22:08:03,308 - rank1 - INFO - WorldSense processed StYFklhZ.mp4: D -> C (✗)
+2026-03-27 22:08:03,308 - rank1 - INFO - [WorldSense] Processing sample 158/397: UECHEryZ.mp4
+2026-03-27 22:08:05,547 - rank1 - INFO - WorldSense processed UECHEryZ.mp4: A -> A (✓)
+2026-03-27 22:08:05,547 - rank1 - INFO - [WorldSense] Processing sample 159/397: gZUJOumt.mp4
+2026-03-27 22:08:09,273 - rank1 - INFO - WorldSense processed gZUJOumt.mp4: C -> C (✓)
+2026-03-27 22:08:09,273 - rank1 - INFO - [WorldSense] Processing sample 160/397: gZUJOumt.mp4
+2026-03-27 22:08:12,851 - rank1 - INFO - WorldSense processed gZUJOumt.mp4: C -> D (✗)
+2026-03-27 22:08:12,851 - rank1 - INFO - [WorldSense] Processing sample 161/397: OnQfwKVW.mp4
+2026-03-27 22:08:14,815 - rank1 - INFO - WorldSense processed OnQfwKVW.mp4: C -> D (✗)
+2026-03-27 22:08:14,815 - rank1 - INFO - [WorldSense] Processing sample 162/397: OnQfwKVW.mp4
+2026-03-27 22:08:16,724 - rank1 - INFO - WorldSense processed OnQfwKVW.mp4: D -> A (✗)
+2026-03-27 22:08:16,724 - rank1 - INFO - [WorldSense] Processing sample 163/397: poiuzmrP.mp4
+2026-03-27 22:08:23,680 - rank1 - INFO - WorldSense processed poiuzmrP.mp4: B -> C (✗)
+2026-03-27 22:08:23,681 - rank1 - INFO - [WorldSense] Processing sample 164/397: poiuzmrP.mp4
+2026-03-27 22:08:30,730 - rank1 - INFO - WorldSense processed poiuzmrP.mp4: D -> D (✓)
+2026-03-27 22:08:30,730 - rank1 - INFO - [WorldSense] Processing sample 165/397: YssVAWRV.mp4
+2026-03-27 22:08:34,425 - rank1 - INFO - WorldSense processed YssVAWRV.mp4: D -> D (✓)
+2026-03-27 22:08:34,426 - rank1 - INFO - [WorldSense] Processing sample 166/397: ZFQhabpn.mp4
+2026-03-27 22:08:37,472 - rank1 - INFO - WorldSense processed ZFQhabpn.mp4: A -> A (✓)
+2026-03-27 22:08:37,472 - rank1 - INFO - [WorldSense] Processing sample 167/397: fVeryVen.mp4
+2026-03-27 22:08:57,374 - rank1 - INFO - WorldSense processed fVeryVen.mp4: D -> B (✗)
+2026-03-27 22:08:57,374 - rank1 - INFO - [WorldSense] Processing sample 168/397: fVeryVen.mp4
+2026-03-27 22:09:17,157 - rank1 - INFO - WorldSense processed fVeryVen.mp4: A -> A (✓)
+2026-03-27 22:09:17,158 - rank1 - INFO - [WorldSense] Processing sample 169/397: fVeryVen.mp4
+2026-03-27 22:09:36,874 - rank1 - INFO - WorldSense processed fVeryVen.mp4: A -> A (✓)
+2026-03-27 22:09:36,874 - rank1 - INFO - [WorldSense] Processing sample 170/397: ECbuOxRs.mp4
+2026-03-27 22:09:42,756 - rank1 - INFO - WorldSense processed ECbuOxRs.mp4: B -> B (✓)
+2026-03-27 22:09:42,756 - rank1 - INFO - [WorldSense] Processing sample 171/397: vHEUNCcw.mp4
+2026-03-27 22:09:46,557 - rank1 - INFO - WorldSense processed vHEUNCcw.mp4: D -> D (✓)
+2026-03-27 22:09:46,557 - rank1 - INFO - [WorldSense] Processing sample 172/397: KpbwAljP.mp4
+2026-03-27 22:10:05,859 - rank1 - INFO - WorldSense processed KpbwAljP.mp4: D -> D (✓)
+2026-03-27 22:10:05,859 - rank1 - INFO - [WorldSense] Processing sample 173/397: KpbwAljP.mp4
+2026-03-27 22:10:25,119 - rank1 - INFO - WorldSense processed KpbwAljP.mp4: A -> B (✗)
+2026-03-27 22:10:25,119 - rank1 - INFO - [WorldSense] Processing sample 174/397: BMXajgzh.mp4
+2026-03-27 22:10:31,926 - rank1 - INFO - WorldSense processed BMXajgzh.mp4: C -> A (✗)
+2026-03-27 22:10:31,926 - rank1 - INFO - [WorldSense] Processing sample 175/397: BMXajgzh.mp4
+2026-03-27 22:10:38,676 - rank1 - INFO - WorldSense processed BMXajgzh.mp4: A -> C (✗)
+2026-03-27 22:10:38,676 - rank1 - INFO - [WorldSense] Processing sample 176/397: BMXajgzh.mp4
+2026-03-27 22:10:45,714 - rank1 - INFO - WorldSense processed BMXajgzh.mp4: B -> B (✓)
+2026-03-27 22:10:45,714 - rank1 - INFO - [WorldSense] Processing sample 177/397: fpuHTajr.mp4
+2026-03-27 22:10:49,170 - rank1 - INFO - WorldSense processed fpuHTajr.mp4: D -> B (✗)
+2026-03-27 22:10:49,171 - rank1 - INFO - [WorldSense] Processing sample 178/397: dhZIVwfD.mp4
+2026-03-27 22:10:53,203 - rank1 - INFO - WorldSense processed dhZIVwfD.mp4: B -> B (✓)
+2026-03-27 22:10:53,203 - rank1 - INFO - [WorldSense] Processing sample 179/397: dhZIVwfD.mp4
+2026-03-27 22:10:57,140 - rank1 - INFO - WorldSense processed dhZIVwfD.mp4: A -> B (✗)
+2026-03-27 22:10:57,141 - rank1 - INFO - [WorldSense] Processing sample 180/397: SrLZGOSB.mp4
+2026-03-27 22:11:03,041 - rank1 - INFO - WorldSense processed SrLZGOSB.mp4: C -> C (✓)
+2026-03-27 22:11:03,042 - rank1 - INFO - [WorldSense] Processing sample 181/397: SrLZGOSB.mp4
+2026-03-27 22:11:09,034 - rank1 - INFO - WorldSense processed SrLZGOSB.mp4: A -> A (✓)
+2026-03-27 22:11:09,034 - rank1 - INFO - [WorldSense] Processing sample 182/397: SrLZGOSB.mp4
+2026-03-27 22:11:14,962 - rank1 - INFO - WorldSense processed SrLZGOSB.mp4: C -> A (✗)
+2026-03-27 22:11:14,962 - rank1 - INFO - [WorldSense] Processing sample 183/397: sDQwyyLK.mp4
+2026-03-27 22:11:36,545 - rank1 - INFO - WorldSense processed sDQwyyLK.mp4: D -> B (✗)
+2026-03-27 22:11:36,546 - rank1 - INFO - [WorldSense] Processing sample 184/397: sDQwyyLK.mp4
+2026-03-27 22:11:58,267 - rank1 - INFO - WorldSense processed sDQwyyLK.mp4: D -> D (✓)
+2026-03-27 22:11:58,267 - rank1 - INFO - [WorldSense] Processing sample 185/397: MbvGrNUS.mp4
+2026-03-27 22:12:20,209 - rank1 - INFO - WorldSense processed MbvGrNUS.mp4: B -> B (✓)
+2026-03-27 22:12:20,209 - rank1 - INFO - [WorldSense] Processing sample 186/397: MbvGrNUS.mp4
+2026-03-27 22:12:42,026 - rank1 - INFO - WorldSense processed MbvGrNUS.mp4: C -> D (✗)
+2026-03-27 22:12:42,026 - rank1 - INFO - [WorldSense] Processing sample 187/397: LSILdqrI.mp4
+2026-03-27 22:12:44,086 - rank1 - INFO - WorldSense processed LSILdqrI.mp4: D -> B (✗)
+2026-03-27 22:12:44,086 - rank1 - INFO - [WorldSense] Processing sample 188/397: JZmHHeWC.mp4
+2026-03-27 22:12:46,140 - rank1 - INFO - WorldSense processed JZmHHeWC.mp4: C -> A (✗)
+2026-03-27 22:12:46,141 - rank1 - INFO - [WorldSense] Processing sample 189/397: JZmHHeWC.mp4
+2026-03-27 22:12:48,194 - rank1 - INFO - WorldSense processed JZmHHeWC.mp4: C -> C (✓)
+2026-03-27 22:12:48,195 - rank1 - INFO - [WorldSense] Processing sample 190/397: brrfsvYs.mp4
+2026-03-27 22:12:56,383 - rank1 - INFO - WorldSense processed brrfsvYs.mp4: D -> C (✗)
+2026-03-27 22:12:56,383 - rank1 - INFO - [WorldSense] Processing sample 191/397: brrfsvYs.mp4
+2026-03-27 22:13:04,213 - rank1 - INFO - WorldSense processed brrfsvYs.mp4: D -> B (✗)
+2026-03-27 22:13:04,215 - rank1 - INFO - [WorldSense] Processing sample 192/397: brrfsvYs.mp4
+2026-03-27 22:13:12,010 - rank1 - INFO - WorldSense processed brrfsvYs.mp4: A -> A (✓)
+2026-03-27 22:13:12,010 - rank1 - INFO - [WorldSense] Processing sample 193/397: PFWtSgmy.mp4
+2026-03-27 22:13:15,797 - rank1 - INFO - WorldSense processed PFWtSgmy.mp4: C -> D (✗)
+2026-03-27 22:13:15,797 - rank1 - INFO - [WorldSense] Processing sample 194/397: PFWtSgmy.mp4
+2026-03-27 22:13:19,565 - rank1 - INFO - WorldSense processed PFWtSgmy.mp4: A -> D (✗)
+2026-03-27 22:13:19,565 - rank1 - INFO - [WorldSense] Processing sample 195/397: YrfuwtDa.mp4
+2026-03-27 22:13:23,248 - rank1 - INFO - WorldSense processed YrfuwtDa.mp4: C -> A (✗)
+2026-03-27 22:13:23,249 - rank1 - INFO - [WorldSense] Processing sample 196/397: ruNfcJFd.mp4
+2026-03-27 22:13:45,798 - rank1 - INFO - WorldSense processed ruNfcJFd.mp4: B -> B (✓)
+2026-03-27 22:13:45,798 - rank1 - INFO - [WorldSense] Processing sample 197/397: ruNfcJFd.mp4
+2026-03-27 22:14:08,135 - rank1 - INFO - WorldSense processed ruNfcJFd.mp4: A -> B (✗)
+2026-03-27 22:14:08,136 - rank1 - INFO - [WorldSense] Processing sample 198/397: ruNfcJFd.mp4
+2026-03-27 22:14:30,193 - rank1 - INFO - WorldSense processed ruNfcJFd.mp4: D -> B (✗)
+2026-03-27 22:14:30,193 - rank1 - INFO - [WorldSense] Processing sample 199/397: ruNfcJFd.mp4
+2026-03-27 22:14:52,542 - rank1 - INFO - WorldSense processed ruNfcJFd.mp4: B -> C (✗)
+2026-03-27 22:14:52,542 - rank1 - INFO - [WorldSense] Processing sample 200/397: EfuyFyfu.mp4
+2026-03-27 22:14:55,426 - rank1 - INFO - WorldSense processed EfuyFyfu.mp4: C -> C (✓)
+2026-03-27 22:14:55,426 - rank1 - INFO - [WorldSense] Processing sample 201/397: EfuyFyfu.mp4
+2026-03-27 22:14:58,415 - rank1 - INFO - WorldSense processed EfuyFyfu.mp4: A -> C (✗)
+2026-03-27 22:14:58,415 - rank1 - INFO - [WorldSense] Processing sample 202/397: EfuyFyfu.mp4
+2026-03-27 22:15:01,328 - rank1 - INFO - WorldSense processed EfuyFyfu.mp4: B -> B (✓)
+2026-03-27 22:15:01,328 - rank1 - INFO - [WorldSense] Processing sample 203/397: RibVkphS.mp4
+2026-03-27 22:15:03,460 - rank1 - INFO - WorldSense processed RibVkphS.mp4: C -> C (✓)
+2026-03-27 22:15:03,460 - rank1 - INFO - [WorldSense] Processing sample 204/397: RibVkphS.mp4
+2026-03-27 22:15:05,674 - rank1 - INFO - WorldSense processed RibVkphS.mp4: B -> B (✓)
+2026-03-27 22:15:05,674 - rank1 - INFO - [WorldSense] Processing sample 205/397: RibVkphS.mp4
+2026-03-27 22:15:07,851 - rank1 - INFO - WorldSense processed RibVkphS.mp4: B -> A (✗)
+2026-03-27 22:15:07,851 - rank1 - INFO - [WorldSense] Processing sample 206/397: jlUtrjun.mp4
+2026-03-27 22:15:11,010 - rank1 - INFO - WorldSense processed jlUtrjun.mp4: A -> A (✓)
+2026-03-27 22:15:11,010 - rank1 - INFO - [WorldSense] Processing sample 207/397: jlUtrjun.mp4
+2026-03-27 22:15:14,226 - rank1 - INFO - WorldSense processed jlUtrjun.mp4: B -> B (✓)
+2026-03-27 22:15:14,226 - rank1 - INFO - [WorldSense] Processing sample 208/397: ngKCvvQp.mp4
+2026-03-27 22:15:23,595 - rank1 - INFO - WorldSense processed ngKCvvQp.mp4: A -> A (✓)
+2026-03-27 22:15:23,595 - rank1 - INFO - [WorldSense] Processing sample 209/397: ngKCvvQp.mp4
+2026-03-27 22:15:32,805 - rank1 - INFO - WorldSense processed ngKCvvQp.mp4: B -> B (✓)
+2026-03-27 22:15:32,805 - rank1 - INFO - [WorldSense] Processing sample 210/397: PXoUvfgm.mp4
+2026-03-27 22:15:36,431 - rank1 - INFO - WorldSense processed PXoUvfgm.mp4: D -> C (✗)
+2026-03-27 22:15:36,432 - rank1 - INFO - [WorldSense] Processing sample 211/397: PwujWvIy.mp4
+2026-03-27 22:15:40,089 - rank1 - INFO - WorldSense processed PwujWvIy.mp4: B -> C (✗)
+2026-03-27 22:15:40,090 - rank1 - INFO - [WorldSense] Processing sample 212/397: PwujWvIy.mp4
+2026-03-27 22:15:44,019 - rank1 - INFO - WorldSense processed PwujWvIy.mp4: B -> A (✗)
+2026-03-27 22:15:44,019 - rank1 - INFO - [WorldSense] Processing sample 213/397: eQxVvndq.mp4
+2026-03-27 22:15:46,892 - rank1 - INFO - WorldSense processed eQxVvndq.mp4: D -> D (✓)
+2026-03-27 22:15:46,893 - rank1 - INFO - [WorldSense] Processing sample 214/397: qSxLNtoC.mp4
+2026-03-27 22:16:07,178 - rank1 - INFO - WorldSense processed qSxLNtoC.mp4: D -> C (✗)
+2026-03-27 22:16:07,179 - rank1 - INFO - [WorldSense] Processing sample 215/397: oDFEgayi.mp4
+2026-03-27 22:16:10,952 - rank1 - INFO - WorldSense processed oDFEgayi.mp4: A -> D (✗)
+2026-03-27 22:16:10,952 - rank1 - INFO - [WorldSense] Processing sample 216/397: oDFEgayi.mp4
+2026-03-27 22:16:14,684 - rank1 - INFO - WorldSense processed oDFEgayi.mp4: D -> D (✓)
+2026-03-27 22:16:14,684 - rank1 - INFO - [WorldSense] Processing sample 217/397: NfqKjvcz.mp4
+2026-03-27 22:16:18,421 - rank1 - INFO - WorldSense processed NfqKjvcz.mp4: A -> A (✓)
+2026-03-27 22:16:18,421 - rank1 - INFO - [WorldSense] Processing sample 218/397: NfqKjvcz.mp4
+2026-03-27 22:16:22,183 - rank1 - INFO - WorldSense processed NfqKjvcz.mp4: D -> B (✗)
+2026-03-27 22:16:22,183 - rank1 - INFO - [WorldSense] Processing sample 219/397: hMYAGFoQ.mp4
+2026-03-27 22:16:25,297 - rank1 - INFO - WorldSense processed hMYAGFoQ.mp4: A -> A (✓)
+2026-03-27 22:16:25,297 - rank1 - INFO - [WorldSense] Processing sample 220/397: xfyeYBXS.mp4
+2026-03-27 22:16:29,018 - rank1 - INFO - WorldSense processed xfyeYBXS.mp4: B -> D (✗)
+2026-03-27 22:16:29,018 - rank1 - INFO - [WorldSense] Processing sample 221/397: OKyEAgAz.mp4
+2026-03-27 22:16:32,781 - rank1 - INFO - WorldSense processed OKyEAgAz.mp4: B -> B (✓)
+2026-03-27 22:16:32,781 - rank1 - INFO - [WorldSense] Processing sample 222/397: hXgprlfg.mp4
+2026-03-27 22:16:35,631 - rank1 - INFO - WorldSense processed hXgprlfg.mp4: C -> A (✗)
+2026-03-27 22:16:35,633 - rank1 - INFO - [WorldSense] Processing sample 223/397: CrOuXLhe.mp4
+2026-03-27 22:16:39,295 - rank1 - INFO - WorldSense processed CrOuXLhe.mp4: A -> A (✓)
+2026-03-27 22:16:39,295 - rank1 - INFO - [WorldSense] Processing sample 224/397: CrOuXLhe.mp4
+2026-03-27 22:16:42,948 - rank1 - INFO - WorldSense processed CrOuXLhe.mp4: B -> C (✗)
+2026-03-27 22:16:42,949 - rank1 - INFO - [WorldSense] Processing sample 225/397: CrOuXLhe.mp4
+2026-03-27 22:16:46,647 - rank1 - INFO - WorldSense processed CrOuXLhe.mp4: A -> C (✗)
+2026-03-27 22:16:46,647 - rank1 - INFO - [WorldSense] Processing sample 226/397: vwNurRWU.mp4
+2026-03-27 22:16:55,891 - rank1 - INFO - WorldSense processed vwNurRWU.mp4: C -> C (✓)
+2026-03-27 22:16:55,893 - rank1 - INFO - [WorldSense] Processing sample 227/397: vwNurRWU.mp4
+2026-03-27 22:17:04,865 - rank1 - INFO - WorldSense processed vwNurRWU.mp4: B -> B (✓)
+2026-03-27 22:17:04,865 - rank1 - INFO - [WorldSense] Processing sample 228/397: fcJwkNBh.mp4
+2026-03-27 22:17:08,208 - rank1 - INFO - WorldSense processed fcJwkNBh.mp4: D -> A (✗)
+2026-03-27 22:17:08,208 - rank1 - INFO - [WorldSense] Processing sample 229/397: zHxmeJBW.mp4
+2026-03-27 22:17:10,382 - rank1 - INFO - WorldSense processed zHxmeJBW.mp4: B -> D (✗)
+2026-03-27 22:17:10,383 - rank1 - INFO - [WorldSense] Processing sample 230/397: KGokYCdm.mp4
+2026-03-27 22:17:16,064 - rank1 - INFO - WorldSense processed KGokYCdm.mp4: D -> B (✗)
+2026-03-27 22:17:16,064 - rank1 - INFO - [WorldSense] Processing sample 231/397: hYcIkwMV.mp4
+2026-03-27 22:17:19,153 - rank1 - INFO - WorldSense processed hYcIkwMV.mp4: B -> B (✓)
+2026-03-27 22:17:19,153 - rank1 - INFO - [WorldSense] Processing sample 232/397: OIMEHpmB.mp4
+2026-03-27 22:17:21,861 - rank1 - INFO - WorldSense processed OIMEHpmB.mp4: C -> C (✓)
+2026-03-27 22:17:21,862 - rank1 - INFO - [WorldSense] Processing sample 233/397: jbZgCwlJ.mp4
+2026-03-27 22:17:31,750 - rank1 - INFO - WorldSense processed jbZgCwlJ.mp4: A -> A (✓)
+2026-03-27 22:17:31,750 - rank1 - INFO - [WorldSense] Processing sample 234/397: jbZgCwlJ.mp4
+2026-03-27 22:17:41,678 - rank1 - INFO - WorldSense processed jbZgCwlJ.mp4: A -> B (✗)
+2026-03-27 22:17:41,678 - rank1 - INFO - [WorldSense] Processing sample 235/397: vSGVUrtn.mp4
+2026-03-27 22:17:45,214 - rank1 - INFO - WorldSense processed vSGVUrtn.mp4: B -> D (✗)
+2026-03-27 22:17:45,214 - rank1 - INFO - [WorldSense] Processing sample 236/397: vSGVUrtn.mp4
+2026-03-27 22:17:48,653 - rank1 - INFO - WorldSense processed vSGVUrtn.mp4: C -> C (✓)
+2026-03-27 22:17:48,653 - rank1 - INFO - [WorldSense] Processing sample 237/397: XkZlbDXD.mp4
+2026-03-27 22:17:53,374 - rank1 - INFO - WorldSense processed XkZlbDXD.mp4: A -> D (✗)
+2026-03-27 22:17:53,374 - rank1 - INFO - [WorldSense] Processing sample 238/397: XkZlbDXD.mp4
+2026-03-27 22:17:58,097 - rank1 - INFO - WorldSense processed XkZlbDXD.mp4: B -> D (✗)
+2026-03-27 22:17:58,098 - rank1 - INFO - [WorldSense] Processing sample 239/397: EfVSxyDK.mp4
+2026-03-27 22:18:01,461 - rank1 - INFO - WorldSense processed EfVSxyDK.mp4: A -> B (✗)
+2026-03-27 22:18:01,463 - rank1 - INFO - [WorldSense] Processing sample 240/397: EfVSxyDK.mp4
+2026-03-27 22:18:04,669 - rank1 - INFO - WorldSense processed EfVSxyDK.mp4: D -> D (✓)
+2026-03-27 22:18:04,669 - rank1 - INFO - [WorldSense] Processing sample 241/397: uvSjATRD.mp4
+2026-03-27 22:18:07,825 - rank1 - INFO - WorldSense processed uvSjATRD.mp4: C -> C (✓)
+2026-03-27 22:18:07,828 - rank1 - INFO - [WorldSense] Processing sample 242/397: iErPftPQ.mp4
+2026-03-27 22:18:11,533 - rank1 - INFO - WorldSense processed iErPftPQ.mp4: B -> C (✗)
+2026-03-27 22:18:11,534 - rank1 - INFO - [WorldSense] Processing sample 243/397: rMhuYqnC.mp4
+2026-03-27 22:18:34,882 - rank1 - INFO - WorldSense processed rMhuYqnC.mp4: C -> D (✗)
+2026-03-27 22:18:34,882 - rank1 - INFO - [WorldSense] Processing sample 244/397: UFwlTsed.mp4
+2026-03-27 22:18:38,085 - rank1 - INFO - WorldSense processed UFwlTsed.mp4: A -> D (✗)
+2026-03-27 22:18:38,085 - rank1 - INFO - [WorldSense] Processing sample 245/397: dyBjnuIc.mp4
+2026-03-27 22:19:00,599 - rank1 - INFO - WorldSense processed dyBjnuIc.mp4: B -> B (✓)
+2026-03-27 22:19:00,600 - rank1 - INFO - [WorldSense] Processing sample 246/397: uyecmnpT.mp4
+2026-03-27 22:19:04,446 - rank1 - INFO - WorldSense processed uyecmnpT.mp4: B -> B (✓)
+2026-03-27 22:19:04,446 - rank1 - INFO - [WorldSense] Processing sample 247/397: uyecmnpT.mp4
+2026-03-27 22:19:08,241 - rank1 - INFO - WorldSense processed uyecmnpT.mp4: B -> B (✓)
+2026-03-27 22:19:08,241 - rank1 - INFO - [WorldSense] Processing sample 248/397: uyecmnpT.mp4
+2026-03-27 22:19:12,147 - rank1 - INFO - WorldSense processed uyecmnpT.mp4: C -> C (✓)
+2026-03-27 22:19:12,147 - rank1 - INFO - [WorldSense] Processing sample 249/397: GkcryPKL.mp4
+2026-03-27 22:19:16,771 - rank1 - INFO - WorldSense processed GkcryPKL.mp4: B -> A (✗)
+2026-03-27 22:19:16,771 - rank1 - INFO - [WorldSense] Processing sample 250/397: lafhIogq.mp4
+2026-03-27 22:19:20,412 - rank1 - INFO - WorldSense processed lafhIogq.mp4: D -> D (✓)
+2026-03-27 22:19:20,413 - rank1 - INFO - [WorldSense] Processing sample 251/397: jdxgftDh.mp4
+2026-03-27 22:19:28,557 - rank1 - INFO - WorldSense processed jdxgftDh.mp4: B -> B (✓)
+2026-03-27 22:19:28,557 - rank1 - INFO - [WorldSense] Processing sample 252/397: jdxgftDh.mp4
+2026-03-27 22:19:37,090 - rank1 - INFO - WorldSense processed jdxgftDh.mp4: B -> B (✓)
+2026-03-27 22:19:37,090 - rank1 - INFO - [WorldSense] Processing sample 253/397: hINShVid.mp4
+2026-03-27 22:19:40,219 - rank1 - INFO - WorldSense processed hINShVid.mp4: D -> A (✗)
+2026-03-27 22:19:40,219 - rank1 - INFO - [WorldSense] Processing sample 254/397: DIpkcdYt.mp4
+2026-03-27 22:20:00,900 - rank1 - INFO - WorldSense processed DIpkcdYt.mp4: B -> A (✗)
+2026-03-27 22:20:00,901 - rank1 - INFO - [WorldSense] Processing sample 255/397: DIpkcdYt.mp4
+2026-03-27 22:20:21,810 - rank1 - INFO - WorldSense processed DIpkcdYt.mp4: B -> B (✓)
+2026-03-27 22:20:21,810 - rank1 - INFO - [WorldSense] Processing sample 256/397: ZaTILlKa.mp4
+2026-03-27 22:20:45,078 - rank1 - INFO - WorldSense processed ZaTILlKa.mp4: C -> C (✓)
+2026-03-27 22:20:45,078 - rank1 - INFO - [WorldSense] Processing sample 257/397: ZaTILlKa.mp4
+2026-03-27 22:21:08,212 - rank1 - INFO - WorldSense processed ZaTILlKa.mp4: D -> A (✗)
+2026-03-27 22:21:08,212 - rank1 - INFO - [WorldSense] Processing sample 258/397: ZaTILlKa.mp4
+2026-03-27 22:21:31,208 - rank1 - INFO - WorldSense processed ZaTILlKa.mp4: B -> D (✗)
+2026-03-27 22:21:31,208 - rank1 - INFO - [WorldSense] Processing sample 259/397: KzOiyMSp.mp4
+2026-03-27 22:21:35,653 - rank1 - INFO - WorldSense processed KzOiyMSp.mp4: C -> D (✗)
+2026-03-27 22:21:35,653 - rank1 - INFO - [WorldSense] Processing sample 260/397: KzOiyMSp.mp4
+2026-03-27 22:21:39,969 - rank1 - INFO - WorldSense processed KzOiyMSp.mp4: D -> D (✓)
+2026-03-27 22:21:39,970 - rank1 - INFO - [WorldSense] Processing sample 261/397: asPEhVEL.mp4
+2026-03-27 22:21:45,021 - rank1 - INFO - WorldSense processed asPEhVEL.mp4: B -> A (✗)
+2026-03-27 22:21:45,022 - rank1 - INFO - [WorldSense] Processing sample 262/397: Dmrohaza.mp4
+2026-03-27 22:21:48,762 - rank1 - INFO - WorldSense processed Dmrohaza.mp4: C -> C (✓)
+2026-03-27 22:21:48,762 - rank1 - INFO - [WorldSense] Processing sample 263/397: Dmrohaza.mp4
+2026-03-27 22:21:52,376 - rank1 - INFO - WorldSense processed Dmrohaza.mp4: C -> C (✓)
+2026-03-27 22:21:52,376 - rank1 - INFO - [WorldSense] Processing sample 264/397: Dmrohaza.mp4
+2026-03-27 22:21:56,222 - rank1 - INFO - WorldSense processed Dmrohaza.mp4: D -> C (✗)
+2026-03-27 22:21:56,222 - rank1 - INFO - [WorldSense] Processing sample 265/397: yNkBPAag.mp4
+2026-03-27 22:21:59,841 - rank1 - INFO - WorldSense processed yNkBPAag.mp4: C -> B (✗)
+2026-03-27 22:21:59,841 - rank1 - INFO - [WorldSense] Processing sample 266/397: vEYikJqy.mp4
+2026-03-27 22:22:03,744 - rank1 - INFO - WorldSense processed vEYikJqy.mp4: D -> D (✓)
+2026-03-27 22:22:03,745 - rank1 - INFO - [WorldSense] Processing sample 267/397: vPVwGNej.mp4
+2026-03-27 22:22:05,560 - rank1 - INFO - WorldSense processed vPVwGNej.mp4: C -> C (✓)
+2026-03-27 22:22:05,561 - rank1 - INFO - [WorldSense] Processing sample 268/397: vPVwGNej.mp4
+2026-03-27 22:22:07,381 - rank1 - INFO - WorldSense processed vPVwGNej.mp4: B -> A (✗)
+2026-03-27 22:22:07,382 - rank1 - INFO - [WorldSense] Processing sample 269/397: SiWVEKEY.mp4
+2026-03-27 22:22:15,358 - rank1 - INFO - WorldSense processed SiWVEKEY.mp4: C -> C (✓)
+2026-03-27 22:22:15,358 - rank1 - INFO - [WorldSense] Processing sample 270/397: IpYvbmDt.mp4
+2026-03-27 22:22:26,215 - rank1 - INFO - WorldSense processed IpYvbmDt.mp4: C -> B (✗)
+2026-03-27 22:22:26,215 - rank1 - INFO - [WorldSense] Processing sample 271/397: zegFpygl.mp4
+2026-03-27 22:22:28,276 - rank1 - INFO - WorldSense processed zegFpygl.mp4: C -> D (✗)
+2026-03-27 22:22:28,276 - rank1 - INFO - [WorldSense] Processing sample 272/397: zegFpygl.mp4
+2026-03-27 22:22:30,370 - rank1 - INFO - WorldSense processed zegFpygl.mp4: B -> A (✗)
+2026-03-27 22:22:30,371 - rank1 - INFO - [WorldSense] Processing sample 273/397: zegFpygl.mp4
+2026-03-27 22:22:32,435 - rank1 - INFO - WorldSense processed zegFpygl.mp4: D -> D (✓)
+2026-03-27 22:22:32,435 - rank1 - INFO - [WorldSense] Processing sample 274/397: rkCfGzYn.mp4
+2026-03-27 22:22:39,039 - rank1 - INFO - WorldSense processed rkCfGzYn.mp4: D -> C (✗)
+2026-03-27 22:22:39,039 - rank1 - INFO - [WorldSense] Processing sample 275/397: rhiWCTTn.mp4
+2026-03-27 22:22:42,933 - rank1 - INFO - WorldSense processed rhiWCTTn.mp4: D -> D (✓)
+2026-03-27 22:22:42,933 - rank1 - INFO - [WorldSense] Processing sample 276/397: rhiWCTTn.mp4
+2026-03-27 22:22:46,615 - rank1 - INFO - WorldSense processed rhiWCTTn.mp4: B -> B (✓)
+2026-03-27 22:22:46,615 - rank1 - INFO - [WorldSense] Processing sample 277/397: HjjZYonP.mp4
+2026-03-27 22:22:49,264 - rank1 - INFO - WorldSense processed HjjZYonP.mp4: D -> A (✗)
+2026-03-27 22:22:49,264 - rank1 - INFO - [WorldSense] Processing sample 278/397: HjjZYonP.mp4
+2026-03-27 22:22:51,981 - rank1 - INFO - WorldSense processed HjjZYonP.mp4: B -> B (✓)
+2026-03-27 22:22:51,981 - rank1 - INFO - [WorldSense] Processing sample 279/397: Fvvcidyv.mp4
+2026-03-27 22:23:13,397 - rank1 - INFO - WorldSense processed Fvvcidyv.mp4: B -> B (✓)
+2026-03-27 22:23:13,399 - rank1 - INFO - [WorldSense] Processing sample 280/397: Fvvcidyv.mp4
+2026-03-27 22:23:34,605 - rank1 - INFO - WorldSense processed Fvvcidyv.mp4: B -> A (✗)
+2026-03-27 22:23:34,605 - rank1 - INFO - [WorldSense] Processing sample 281/397: Fvvcidyv.mp4
+2026-03-27 22:23:55,889 - rank1 - INFO - WorldSense processed Fvvcidyv.mp4: D -> A (✗)
+2026-03-27 22:23:55,889 - rank1 - INFO - [WorldSense] Processing sample 282/397: MJAXSqRz.mp4
+2026-03-27 22:24:00,147 - rank1 - INFO - WorldSense processed MJAXSqRz.mp4: B -> B (✓)
+2026-03-27 22:24:00,147 - rank1 - INFO - [WorldSense] Processing sample 283/397: cpoJSETB.mp4
+2026-03-27 22:24:03,256 - rank1 - INFO - WorldSense processed cpoJSETB.mp4: D -> D (✓)
+2026-03-27 22:24:03,257 - rank1 - INFO - [WorldSense] Processing sample 284/397: onZhHJZa.mp4
+2026-03-27 22:24:07,064 - rank1 - INFO - WorldSense processed onZhHJZa.mp4: D -> C (✗)
+2026-03-27 22:24:07,064 - rank1 - INFO - [WorldSense] Processing sample 285/397: ESYTDrgJ.mp4
+2026-03-27 22:24:15,148 - rank1 - INFO - WorldSense processed ESYTDrgJ.mp4: D -> B (✗)
+2026-03-27 22:24:15,149 - rank1 - INFO - [WorldSense] Processing sample 286/397: ESYTDrgJ.mp4
+2026-03-27 22:24:23,251 - rank1 - INFO - WorldSense processed ESYTDrgJ.mp4: A -> A (✓)
+2026-03-27 22:24:23,251 - rank1 - INFO - [WorldSense] Processing sample 287/397: HiDmUxKZ.mp4
+2026-03-27 22:24:25,505 - rank1 - INFO - WorldSense processed HiDmUxKZ.mp4: B -> B (✓)
+2026-03-27 22:24:25,506 - rank1 - INFO - [WorldSense] Processing sample 288/397: HiDmUxKZ.mp4
+2026-03-27 22:24:27,816 - rank1 - INFO - WorldSense processed HiDmUxKZ.mp4: B -> B (✓)
+2026-03-27 22:24:27,816 - rank1 - INFO - [WorldSense] Processing sample 289/397: HiDmUxKZ.mp4
+2026-03-27 22:24:30,042 - rank1 - INFO - WorldSense processed HiDmUxKZ.mp4: B -> D (✗)
+2026-03-27 22:24:30,043 - rank1 - INFO - [WorldSense] Processing sample 290/397: LoxMTauE.mp4
+2026-03-27 22:24:33,880 - rank1 - INFO - WorldSense processed LoxMTauE.mp4: A -> C (✗)
+2026-03-27 22:24:33,880 - rank1 - INFO - [WorldSense] Processing sample 291/397: LoxMTauE.mp4
+2026-03-27 22:24:37,467 - rank1 - INFO - WorldSense processed LoxMTauE.mp4: D -> D (✓)
+2026-03-27 22:24:37,468 - rank1 - INFO - [WorldSense] Processing sample 292/397: fWwiNnYW.mp4
+2026-03-27 22:24:40,582 - rank1 - INFO - WorldSense processed fWwiNnYW.mp4: A -> C (✗)
+2026-03-27 22:24:40,582 - rank1 - INFO - [WorldSense] Processing sample 293/397: fWwiNnYW.mp4
+2026-03-27 22:24:43,661 - rank1 - INFO - WorldSense processed fWwiNnYW.mp4: A -> B (✗)
+2026-03-27 22:24:43,661 - rank1 - INFO - [WorldSense] Processing sample 294/397: wIyITRFB.mp4
+2026-03-27 22:24:47,438 - rank1 - INFO - WorldSense processed wIyITRFB.mp4: C -> D (✗)
+2026-03-27 22:24:47,438 - rank1 - INFO - [WorldSense] Processing sample 295/397: oEKtGIOe.mp4
+2026-03-27 22:24:54,525 - rank1 - INFO - WorldSense processed oEKtGIOe.mp4: B -> B (✓)
+2026-03-27 22:24:54,525 - rank1 - INFO - [WorldSense] Processing sample 296/397: wwIJcPKo.mp4
+2026-03-27 22:25:14,048 - rank1 - INFO - WorldSense processed wwIJcPKo.mp4: B -> C (✗)
+2026-03-27 22:25:14,048 - rank1 - INFO - [WorldSense] Processing sample 297/397: ZPygQlZO.mp4
+2026-03-27 22:25:21,912 - rank1 - INFO - WorldSense processed ZPygQlZO.mp4: D -> A (✗)
+2026-03-27 22:25:21,912 - rank1 - INFO - [WorldSense] Processing sample 298/397: YEIUOeNp.mp4
+2026-03-27 22:25:38,628 - rank1 - INFO - WorldSense processed YEIUOeNp.mp4: A -> B (✗)
+2026-03-27 22:25:38,629 - rank1 - INFO - [WorldSense] Processing sample 299/397: YEIUOeNp.mp4
+2026-03-27 22:25:55,595 - rank1 - INFO - WorldSense processed YEIUOeNp.mp4: B -> A (✗)
+2026-03-27 22:25:55,595 - rank1 - INFO - [WorldSense] Processing sample 300/397: XfhvArDf.mp4
+2026-03-27 22:25:58,578 - rank1 - INFO - WorldSense processed XfhvArDf.mp4: C -> A (✗)
+2026-03-27 22:25:58,578 - rank1 - INFO - [WorldSense] Processing sample 301/397: clgyOpgV.mp4
+2026-03-27 22:26:00,326 - rank1 - INFO - WorldSense processed clgyOpgV.mp4: D -> A (✗)
+2026-03-27 22:26:00,326 - rank1 - INFO - [WorldSense] Processing sample 302/397: CjtRgQnY.mp4
+2026-03-27 22:26:20,578 - rank1 - INFO - WorldSense processed CjtRgQnY.mp4: D -> B (✗)
+2026-03-27 22:26:20,578 - rank1 - INFO - [WorldSense] Processing sample 303/397: CjtRgQnY.mp4
+2026-03-27 22:26:40,920 - rank1 - INFO - WorldSense processed CjtRgQnY.mp4: B -> C (✗)
+2026-03-27 22:26:40,920 - rank1 - INFO - [WorldSense] Processing sample 304/397: nvpqGIyi.mp4
+2026-03-27 22:26:44,391 - rank1 - INFO - WorldSense processed nvpqGIyi.mp4: B -> B (✓)
+2026-03-27 22:26:44,392 - rank1 - INFO - [WorldSense] Processing sample 305/397: ODRcVCUE.mp4
+2026-03-27 22:26:54,091 - rank1 - INFO - WorldSense processed ODRcVCUE.mp4: A -> C (✗)
+2026-03-27 22:26:54,092 - rank1 - INFO - [WorldSense] Processing sample 306/397: ODRcVCUE.mp4
+2026-03-27 22:27:03,660 - rank1 - INFO - WorldSense processed ODRcVCUE.mp4: D -> D (✓)
+2026-03-27 22:27:03,660 - rank1 - INFO - [WorldSense] Processing sample 307/397: CVMQQCTi.mp4
+2026-03-27 22:27:12,112 - rank1 - INFO - WorldSense processed CVMQQCTi.mp4: B -> C (✗)
+2026-03-27 22:27:12,112 - rank1 - INFO - [WorldSense] Processing sample 308/397: CVMQQCTi.mp4
+2026-03-27 22:27:20,467 - rank1 - INFO - WorldSense processed CVMQQCTi.mp4: A -> D (✗)
+2026-03-27 22:27:20,467 - rank1 - INFO - [WorldSense] Processing sample 309/397: CVMQQCTi.mp4
+2026-03-27 22:27:28,784 - rank1 - INFO - WorldSense processed CVMQQCTi.mp4: A -> D (✗)
+2026-03-27 22:27:28,784 - rank1 - INFO - [WorldSense] Processing sample 310/397: CVMQQCTi.mp4
+2026-03-27 22:27:37,293 - rank1 - INFO - WorldSense processed CVMQQCTi.mp4: B -> C (✗)
+2026-03-27 22:27:37,294 - rank1 - INFO - [WorldSense] Processing sample 311/397: CmaDkTNS.mp4
+2026-03-27 22:27:46,094 - rank1 - INFO - WorldSense processed CmaDkTNS.mp4: D -> D (✓)
+2026-03-27 22:27:46,094 - rank1 - INFO - [WorldSense] Processing sample 312/397: XhioWNSE.mp4
+2026-03-27 22:27:50,567 - rank1 - INFO - WorldSense processed XhioWNSE.mp4: A -> A (✓)
+2026-03-27 22:27:50,567 - rank1 - INFO - [WorldSense] Processing sample 313/397: XhioWNSE.mp4
+2026-03-27 22:27:55,137 - rank1 - INFO - WorldSense processed XhioWNSE.mp4: D -> D (✓)
+2026-03-27 22:27:55,137 - rank1 - INFO - [WorldSense] Processing sample 314/397: XhioWNSE.mp4
+2026-03-27 22:27:59,813 - rank1 - INFO - WorldSense processed XhioWNSE.mp4: B -> D (✗)
+2026-03-27 22:27:59,814 - rank1 - INFO - [WorldSense] Processing sample 315/397: lUdmMpqR.mp4
+2026-03-27 22:28:02,233 - rank1 - INFO - WorldSense processed lUdmMpqR.mp4: A -> A (✓)
+2026-03-27 22:28:02,234 - rank1 - INFO - [WorldSense] Processing sample 316/397: lUdmMpqR.mp4
+2026-03-27 22:28:04,521 - rank1 - INFO - WorldSense processed lUdmMpqR.mp4: C -> A (✗)
+2026-03-27 22:28:04,521 - rank1 - INFO - [WorldSense] Processing sample 317/397: YFoSwjHZ.mp4
+2026-03-27 22:28:07,645 - rank1 - INFO - WorldSense processed YFoSwjHZ.mp4: D -> A (✗)
+2026-03-27 22:28:07,646 - rank1 - INFO - [WorldSense] Processing sample 318/397: YFoSwjHZ.mp4
+2026-03-27 22:28:10,736 - rank1 - INFO - WorldSense processed YFoSwjHZ.mp4: D -> A (✗)
+2026-03-27 22:28:10,737 - rank1 - INFO - [WorldSense] Processing sample 319/397: YFoSwjHZ.mp4
+2026-03-27 22:28:13,954 - rank1 - INFO - WorldSense processed YFoSwjHZ.mp4: B -> A (✗)
+2026-03-27 22:28:13,954 - rank1 - INFO - [WorldSense] Processing sample 320/397: msTnUwBG.mp4
+2026-03-27 22:28:27,752 - rank1 - INFO - WorldSense processed msTnUwBG.mp4: A -> B (✗)
+2026-03-27 22:28:27,752 - rank1 - INFO - [WorldSense] Processing sample 321/397: msTnUwBG.mp4
+2026-03-27 22:28:41,870 - rank1 - INFO - WorldSense processed msTnUwBG.mp4: B -> B (✓)
+2026-03-27 22:28:41,870 - rank1 - INFO - [WorldSense] Processing sample 322/397: isMcSZkA.mp4
+2026-03-27 22:28:45,687 - rank1 - INFO - WorldSense processed isMcSZkA.mp4: C -> B (✗)
+2026-03-27 22:28:45,687 - rank1 - INFO - [WorldSense] Processing sample 323/397: uIcRxoGg.mp4
+2026-03-27 22:28:51,827 - rank1 - INFO - WorldSense processed uIcRxoGg.mp4: B -> B (✓)
+2026-03-27 22:28:51,827 - rank1 - INFO - [WorldSense] Processing sample 324/397: PgbRbjoT.mp4
+2026-03-27 22:28:59,028 - rank1 - INFO - WorldSense processed PgbRbjoT.mp4: A -> C (✗)
+2026-03-27 22:28:59,029 - rank1 - INFO - [WorldSense] Processing sample 325/397: PgbRbjoT.mp4
+2026-03-27 22:29:06,236 - rank1 - INFO - WorldSense processed PgbRbjoT.mp4: B -> B (✓)
+2026-03-27 22:29:06,236 - rank1 - INFO - [WorldSense] Processing sample 326/397: PgbRbjoT.mp4
+2026-03-27 22:29:13,481 - rank1 - INFO - WorldSense processed PgbRbjoT.mp4: B -> A (✗)
+2026-03-27 22:29:13,481 - rank1 - INFO - [WorldSense] Processing sample 327/397: sWgpWzPZ.mp4
+2026-03-27 22:29:17,243 - rank1 - INFO - WorldSense processed sWgpWzPZ.mp4: B -> B (✓)
+2026-03-27 22:29:17,244 - rank1 - INFO - [WorldSense] Processing sample 328/397: BNwDPOrI.mp4
+2026-03-27 22:29:38,784 - rank1 - INFO - WorldSense processed BNwDPOrI.mp4: D -> D (✓)
+2026-03-27 22:29:38,784 - rank1 - INFO - [WorldSense] Processing sample 329/397: BNwDPOrI.mp4
+2026-03-27 22:30:00,496 - rank1 - INFO - WorldSense processed BNwDPOrI.mp4: A -> C (✗)
+2026-03-27 22:30:00,496 - rank1 - INFO - [WorldSense] Processing sample 330/397: KVrzfrNs.mp4
+2026-03-27 22:30:03,373 - rank1 - INFO - WorldSense processed KVrzfrNs.mp4: B -> A (✗)
+2026-03-27 22:30:03,374 - rank1 - INFO - [WorldSense] Processing sample 331/397: KVrzfrNs.mp4
+2026-03-27 22:30:06,151 - rank1 - INFO - WorldSense processed KVrzfrNs.mp4: D -> A (✗)
+2026-03-27 22:30:06,151 - rank1 - INFO - [WorldSense] Processing sample 332/397: KVrzfrNs.mp4
+2026-03-27 22:30:09,079 - rank1 - INFO - WorldSense processed KVrzfrNs.mp4: B -> B (✓)
+2026-03-27 22:30:09,079 - rank1 - INFO - [WorldSense] Processing sample 333/397: whbDHTxD.mp4
+2026-03-27 22:30:12,709 - rank1 - INFO - WorldSense processed whbDHTxD.mp4: B -> C (✗)
+2026-03-27 22:30:12,710 - rank1 - INFO - [WorldSense] Processing sample 334/397: WBtKutyY.mp4
+2026-03-27 22:30:16,426 - rank1 - INFO - WorldSense processed WBtKutyY.mp4: B -> A (✗)
+2026-03-27 22:30:16,426 - rank1 - INFO - [WorldSense] Processing sample 335/397: WBtKutyY.mp4
+2026-03-27 22:30:20,084 - rank1 - INFO - WorldSense processed WBtKutyY.mp4: D -> D (✓)
+2026-03-27 22:30:20,084 - rank1 - INFO - [WorldSense] Processing sample 336/397: tnfuJyYK.mp4
+2026-03-27 22:30:24,690 - rank1 - INFO - WorldSense processed tnfuJyYK.mp4: D -> A (✗)
+2026-03-27 22:30:24,690 - rank1 - INFO - [WorldSense] Processing sample 337/397: QAGirumX.mp4
+2026-03-27 22:30:28,200 - rank1 - INFO - WorldSense processed QAGirumX.mp4: C -> C (✓)
+2026-03-27 22:30:28,200 - rank1 - INFO - [WorldSense] Processing sample 338/397: QAGirumX.mp4
+2026-03-27 22:30:31,568 - rank1 - INFO - WorldSense processed QAGirumX.mp4: D -> D (✓)
+2026-03-27 22:30:31,568 - rank1 - INFO - [WorldSense] Processing sample 339/397: zGuBfeit.mp4
+2026-03-27 22:30:36,928 - rank1 - INFO - WorldSense processed zGuBfeit.mp4: C -> A (✗)
+2026-03-27 22:30:36,929 - rank1 - INFO - [WorldSense] Processing sample 340/397: zGuBfeit.mp4
+2026-03-27 22:30:42,304 - rank1 - INFO - WorldSense processed zGuBfeit.mp4: C -> C (✓)
+2026-03-27 22:30:42,304 - rank1 - INFO - [WorldSense] Processing sample 341/397: zGuBfeit.mp4
+2026-03-27 22:30:47,925 - rank1 - INFO - WorldSense processed zGuBfeit.mp4: B -> C (✗)
+2026-03-27 22:30:47,926 - rank1 - INFO - [WorldSense] Processing sample 342/397: zGuBfeit.mp4
+2026-03-27 22:30:53,301 - rank1 - INFO - WorldSense processed zGuBfeit.mp4: C -> C (✓)
+2026-03-27 22:30:53,301 - rank1 - INFO - [WorldSense] Processing sample 343/397: FBjXFpMz.mp4
+2026-03-27 22:30:56,915 - rank1 - INFO - WorldSense processed FBjXFpMz.mp4: D -> D (✓)
+2026-03-27 22:30:56,915 - rank1 - INFO - [WorldSense] Processing sample 344/397: FBjXFpMz.mp4
+2026-03-27 22:31:00,495 - rank1 - INFO - WorldSense processed FBjXFpMz.mp4: D -> B (✗)
+2026-03-27 22:31:00,496 - rank1 - INFO - [WorldSense] Processing sample 345/397: JqpYjIoj.mp4
+2026-03-27 22:31:04,170 - rank1 - INFO - WorldSense processed JqpYjIoj.mp4: C -> B (✗)
+2026-03-27 22:31:04,170 - rank1 - INFO - [WorldSense] Processing sample 346/397: JqpYjIoj.mp4
+2026-03-27 22:31:07,752 - rank1 - INFO - WorldSense processed JqpYjIoj.mp4: B -> C (✗)
+2026-03-27 22:31:07,752 - rank1 - INFO - [WorldSense] Processing sample 347/397: rhudALCb.mp4
+2026-03-27 22:31:11,348 - rank1 - INFO - WorldSense processed rhudALCb.mp4: B -> B (✓)
+2026-03-27 22:31:11,348 - rank1 - INFO - [WorldSense] Processing sample 348/397: qfdgTeNb.mp4
+2026-03-27 22:31:16,280 - rank1 - INFO - WorldSense processed qfdgTeNb.mp4: A -> C (✗)
+2026-03-27 22:31:16,280 - rank1 - INFO - [WorldSense] Processing sample 349/397: wWqnMCJy.mp4
+2026-03-27 22:31:19,987 - rank1 - INFO - WorldSense processed wWqnMCJy.mp4: B -> B (✓)
+2026-03-27 22:31:19,987 - rank1 - INFO - [WorldSense] Processing sample 350/397: tuSvIMdQ.mp4
+2026-03-27 22:31:22,866 - rank1 - INFO - WorldSense processed tuSvIMdQ.mp4: B -> B (✓)
+2026-03-27 22:31:22,867 - rank1 - INFO - [WorldSense] Processing sample 351/397: tuSvIMdQ.mp4
+2026-03-27 22:31:25,689 - rank1 - INFO - WorldSense processed tuSvIMdQ.mp4: D -> D (✓)
+2026-03-27 22:31:25,689 - rank1 - INFO - [WorldSense] Processing sample 352/397: FnkEbRve.mp4
+2026-03-27 22:31:29,387 - rank1 - INFO - WorldSense processed FnkEbRve.mp4: C -> A (✗)
+2026-03-27 22:31:29,387 - rank1 - INFO - [WorldSense] Processing sample 353/397: yMUEXRfR.mp4
+2026-03-27 22:31:32,738 - rank1 - INFO - WorldSense processed yMUEXRfR.mp4: D -> B (✗)
+2026-03-27 22:31:32,738 - rank1 - INFO - [WorldSense] Processing sample 354/397: MTmzEYuz.mp4
+2026-03-27 22:31:36,425 - rank1 - INFO - WorldSense processed MTmzEYuz.mp4: B -> B (✓)
+2026-03-27 22:31:36,425 - rank1 - INFO - [WorldSense] Processing sample 355/397: dpyuxcpa.mp4
+2026-03-27 22:31:40,199 - rank1 - INFO - WorldSense processed dpyuxcpa.mp4: C -> C (✓)
+2026-03-27 22:31:40,199 - rank1 - INFO - [WorldSense] Processing sample 356/397: dpyuxcpa.mp4
+2026-03-27 22:31:43,793 - rank1 - INFO - WorldSense processed dpyuxcpa.mp4: A -> B (✗)
+2026-03-27 22:31:43,793 - rank1 - INFO - [WorldSense] Processing sample 357/397: SFwSbVCw.mp4
+2026-03-27 22:31:54,110 - rank1 - INFO - WorldSense processed SFwSbVCw.mp4: C -> C (✓)
+2026-03-27 22:31:54,111 - rank1 - INFO - [WorldSense] Processing sample 358/397: SFwSbVCw.mp4
+2026-03-27 22:32:04,499 - rank1 - INFO - WorldSense processed SFwSbVCw.mp4: A -> A (✓)
+2026-03-27 22:32:04,500 - rank1 - INFO - [WorldSense] Processing sample 359/397: IHjZUzwi.mp4
+2026-03-27 22:32:07,585 - rank1 - INFO - WorldSense processed IHjZUzwi.mp4: C -> A (✗)
+2026-03-27 22:32:07,585 - rank1 - INFO - [WorldSense] Processing sample 360/397: IHjZUzwi.mp4
+2026-03-27 22:32:10,719 - rank1 - INFO - WorldSense processed IHjZUzwi.mp4: B -> B (✓)
+2026-03-27 22:32:10,720 - rank1 - INFO - [WorldSense] Processing sample 361/397: IHjZUzwi.mp4
+2026-03-27 22:32:13,769 - rank1 - INFO - WorldSense processed IHjZUzwi.mp4: C -> D (✗)
+2026-03-27 22:32:13,769 - rank1 - INFO - [WorldSense] Processing sample 362/397: UjuGbwUi.mp4
+2026-03-27 22:32:27,989 - rank1 - INFO - WorldSense processed UjuGbwUi.mp4: D -> D (✓)
+2026-03-27 22:32:27,989 - rank1 - INFO - [WorldSense] Processing sample 363/397: rTQrCLZh.mp4
+2026-03-27 22:32:32,710 - rank1 - INFO - WorldSense processed rTQrCLZh.mp4: C -> A (✗)
+2026-03-27 22:32:32,711 - rank1 - INFO - [WorldSense] Processing sample 364/397: ujUabiIh.mp4
+2026-03-27 22:32:39,476 - rank1 - INFO - WorldSense processed ujUabiIh.mp4: B -> B (✓)
+2026-03-27 22:32:39,477 - rank1 - INFO - [WorldSense] Processing sample 365/397: ujUabiIh.mp4
+2026-03-27 22:32:46,336 - rank1 - INFO - WorldSense processed ujUabiIh.mp4: D -> A (✗)
+2026-03-27 22:32:46,336 - rank1 - INFO - [WorldSense] Processing sample 366/397: ujUabiIh.mp4
+2026-03-27 22:32:53,107 - rank1 - INFO - WorldSense processed ujUabiIh.mp4: C -> A (✗)
+2026-03-27 22:32:53,107 - rank1 - INFO - [WorldSense] Processing sample 367/397: ZHiUnzfj.mp4
+2026-03-27 22:32:58,863 - rank1 - INFO - WorldSense processed ZHiUnzfj.mp4: C -> D (✗)
+2026-03-27 22:32:58,864 - rank1 - INFO - [WorldSense] Processing sample 368/397: ZHiUnzfj.mp4
+2026-03-27 22:33:04,752 - rank1 - INFO - WorldSense processed ZHiUnzfj.mp4: C -> A (✗)
+2026-03-27 22:33:04,752 - rank1 - INFO - [WorldSense] Processing sample 369/397: SyuApLeo.mp4
+2026-03-27 22:33:08,557 - rank1 - INFO - WorldSense processed SyuApLeo.mp4: C -> A (✗)
+2026-03-27 22:33:08,558 - rank1 - INFO - [WorldSense] Processing sample 370/397: MPcnwbTM.mp4
+2026-03-27 22:33:31,878 - rank1 - INFO - WorldSense processed MPcnwbTM.mp4: B -> B (✓)
+2026-03-27 22:33:31,878 - rank1 - INFO - [WorldSense] Processing sample 371/397: MPcnwbTM.mp4
+2026-03-27 22:33:55,210 - rank1 - INFO - WorldSense processed MPcnwbTM.mp4: C -> C (✓)
+2026-03-27 22:33:55,210 - rank1 - INFO - [WorldSense] Processing sample 372/397: MPcnwbTM.mp4
+2026-03-27 22:34:18,717 - rank1 - INFO - WorldSense processed MPcnwbTM.mp4: D -> D (✓)
+2026-03-27 22:34:18,718 - rank1 - INFO - [WorldSense] Processing sample 373/397: erqXWPoB.mp4
+2026-03-27 22:34:22,441 - rank1 - INFO - WorldSense processed erqXWPoB.mp4: B -> B (✓)
+2026-03-27 22:34:22,441 - rank1 - INFO - [WorldSense] Processing sample 374/397: erqXWPoB.mp4
+2026-03-27 22:34:26,118 - rank1 - INFO - WorldSense processed erqXWPoB.mp4: C -> D (✗)
+2026-03-27 22:34:26,118 - rank1 - INFO - [WorldSense] Processing sample 375/397: WrcvSYWZ.mp4
+2026-03-27 22:34:29,820 - rank1 - INFO - WorldSense processed WrcvSYWZ.mp4: D -> A (✗)
+2026-03-27 22:34:29,820 - rank1 - INFO - [WorldSense] Processing sample 376/397: hxdqtlal.mp4
+2026-03-27 22:34:33,731 - rank1 - INFO - WorldSense processed hxdqtlal.mp4: B -> A (✗)
+2026-03-27 22:34:33,731 - rank1 - INFO - [WorldSense] Processing sample 377/397: UvexAryE.mp4
+2026-03-27 22:34:37,325 - rank1 - INFO - WorldSense processed UvexAryE.mp4: C -> A (✗)
+2026-03-27 22:34:37,325 - rank1 - INFO - [WorldSense] Processing sample 378/397: sMJaPTZt.mp4
+2026-03-27 22:34:41,022 - rank1 - INFO - WorldSense processed sMJaPTZt.mp4: C -> B (✗)
+2026-03-27 22:34:41,022 - rank1 - INFO - [WorldSense] Processing sample 379/397: NvmDeSqG.mp4
+2026-03-27 22:34:43,222 - rank1 - INFO - WorldSense processed NvmDeSqG.mp4: C -> C (✓)
+2026-03-27 22:34:43,222 - rank1 - INFO - [WorldSense] Processing sample 380/397: NvmDeSqG.mp4
+2026-03-27 22:34:45,549 - rank1 - INFO - WorldSense processed NvmDeSqG.mp4: D -> D (✓)
+2026-03-27 22:34:45,549 - rank1 - INFO - [WorldSense] Processing sample 381/397: NvmDeSqG.mp4
+2026-03-27 22:34:47,800 - rank1 - INFO - WorldSense processed NvmDeSqG.mp4: B -> D (✗)
+2026-03-27 22:34:47,800 - rank1 - INFO - [WorldSense] Processing sample 382/397: NvmDeSqG.mp4
+2026-03-27 22:34:50,033 - rank1 - INFO - WorldSense processed NvmDeSqG.mp4: C -> C (✓)
+2026-03-27 22:34:50,033 - rank1 - INFO - [WorldSense] Processing sample 383/397: JElOueCd.mp4
+2026-03-27 22:35:06,645 - rank1 - INFO - WorldSense processed JElOueCd.mp4: C -> A (✗)
+2026-03-27 22:35:06,646 - rank1 - INFO - [WorldSense] Processing sample 384/397: pcaszxvS.mp4
+2026-03-27 22:35:10,344 - rank1 - INFO - WorldSense processed pcaszxvS.mp4: B -> D (✗)
+2026-03-27 22:35:10,344 - rank1 - INFO - [WorldSense] Processing sample 385/397: IPGCgluH.mp4
+2026-03-27 22:35:32,841 - rank1 - INFO - WorldSense processed IPGCgluH.mp4: C -> C (✓)
+2026-03-27 22:35:32,841 - rank1 - INFO - [WorldSense] Processing sample 386/397: IPGCgluH.mp4
+2026-03-27 22:35:55,213 - rank1 - INFO - WorldSense processed IPGCgluH.mp4: A -> A (✓)
+2026-03-27 22:35:55,213 - rank1 - INFO - [WorldSense] Processing sample 387/397: CFfWQggQ.mp4
+2026-03-27 22:35:58,194 - rank1 - INFO - WorldSense processed CFfWQggQ.mp4: C -> C (✓)
+2026-03-27 22:35:58,194 - rank1 - INFO - [WorldSense] Processing sample 388/397: CFfWQggQ.mp4
+2026-03-27 22:36:01,165 - rank1 - INFO - WorldSense processed CFfWQggQ.mp4: A -> D (✗)
+2026-03-27 22:36:01,165 - rank1 - INFO - [WorldSense] Processing sample 389/397: CFfWQggQ.mp4
+2026-03-27 22:36:04,172 - rank1 - INFO - WorldSense processed CFfWQggQ.mp4: B -> B (✓)
+2026-03-27 22:36:04,172 - rank1 - INFO - [WorldSense] Processing sample 390/397: CFfWQggQ.mp4
+2026-03-27 22:36:07,180 - rank1 - INFO - WorldSense processed CFfWQggQ.mp4: A -> D (✗)
+2026-03-27 22:36:07,181 - rank1 - INFO - [WorldSense] Processing sample 391/397: RMofQasT.mp4
+2026-03-27 22:36:10,586 - rank1 - INFO - WorldSense processed RMofQasT.mp4: C -> C (✓)
+2026-03-27 22:36:10,587 - rank1 - INFO - [WorldSense] Processing sample 392/397: ZDYBwNYz.mp4
+2026-03-27 22:36:16,405 - rank1 - INFO - WorldSense processed ZDYBwNYz.mp4: A -> A (✓)
+2026-03-27 22:36:16,406 - rank1 - INFO - [WorldSense] Processing sample 393/397: hBPOXjKA.mp4
+2026-03-27 22:36:31,628 - rank1 - INFO - WorldSense processed hBPOXjKA.mp4: D -> A (✗)
+2026-03-27 22:36:31,628 - rank1 - INFO - [WorldSense] Processing sample 394/397: OaDXXEyV.mp4
+2026-03-27 22:36:34,820 - rank1 - INFO - WorldSense processed OaDXXEyV.mp4: A -> A (✓)
+2026-03-27 22:36:34,820 - rank1 - INFO - [WorldSense] Processing sample 395/397: UHiTZveu.mp4
+2026-03-27 22:36:36,450 - rank1 - INFO - WorldSense processed UHiTZveu.mp4: C -> A (✗)
+2026-03-27 22:36:36,450 - rank1 - INFO - [WorldSense] Processing sample 396/397: UHiTZveu.mp4
+2026-03-27 22:36:38,121 - rank1 - INFO - WorldSense processed UHiTZveu.mp4: C -> A (✗)
+2026-03-27 22:36:38,121 - rank1 - INFO - [WorldSense] Processing sample 397/397: XPDGJZTA.mp4
+2026-03-27 22:36:43,203 - rank1 - INFO - WorldSense processed XPDGJZTA.mp4: C -> C (✓)
+2026-03-27 22:36:43,216 - rank1 - INFO - [WorldSense] Rank 1 分片结果已写入 logs/eval_shortvid_runs/20260327_214603_omni_llm/WorldSense/evaluation_results_rank1.json
+2026-03-27 22:36:43,217 - rank1 - INFO - [PROGRESS] WorldSense local evaluation finished on rank 1
+2026-03-27 22:36:43,217 - rank1 - INFO - Rank 1 已完成本地推理，等待其他进程到达同步点...

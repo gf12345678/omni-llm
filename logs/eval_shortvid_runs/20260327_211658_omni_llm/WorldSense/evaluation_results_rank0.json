@@ -1,0 +1,134 @@
+[
+  {
+    "video": "dvOkwKAs.mp4",
+    "video_id": "dvOkwKAs",
+    "question": "What is the position of the metal roller door relative to the woman wearing white in the video?",
+    "candidates": [
+      "A. To the left of the woman wearing white.",
+      "B. To the right of the woman wearing white.",
+      "C. In front of the woman wearing white.",
+      "D. Behind the woman wearing white."
+    ],
+    "video_caption": "A young man and woman, both wearing white short-sleeved shirts, sit facing the camera playing guzhengs. The woman's shirt has a small logo on the chest and a red sash around her waist. They pluck the strings with picks attached to their right hands.  The background features a wall with a colorful mural incorporating celestial and organic imagery.  Behind the woman is a partially visible, closed metal gate.The camera pans to the right, revealing two more young women seated and playing guzhengs. They wear similar white shirts, one with a light teal sash and the other with a red one. They too use picks on their right hands.  A staircase is partially visible in the background. The camera remains stationary as the four students continue to play.",
+    "correct_answer": "B",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Spatial Relation",
+    "data_type": "Understanding",
+    "domain": "Music",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 10204] cannot be broadcast to indexing result of shape [3, 4371]"
+  },
+  {
+    "video": "UYkFSXsh.mp4",
+    "video_id": "UYkFSXsh",
+    "question": "At the end of the video, how did the volume of the man speaking in the black suit change, if at all?",
+    "candidates": [
+      "A. It is unclear to me.",
+      "B. The volume increased from soft to loud.",
+      "C. The volume decreased from loud to soft."
+    ],
+    "video_caption": "The video begins with a light background and a logo at the top center. Below the logo is a youtube subscribe button. At the bottom of the screen is a text overlay. The video transitions to a scene that is bordered by a multi-colored frame. In the center of the screen is a man holding a microphone. There is a white backdrop behind him with text at the top, and there is a christmas tree on the right. A text banner along with several social media icons appears at the bottom of the video. The scene then changes to show an audience of people sitting. The scene then returns to the man speaking, and he gestures with his hands. He then points at the camera and continues talking. The camera then continues to focus on him as he gestures and talks. During this time a variety of banners appear at the bottom of the screen with different advertisements. The video then ends with a final scene of him standing and facing the camera.",
+    "correct_answer": "B",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Audio Change",
+    "data_type": "Reasoning",
+    "domain": "Culture & Politics",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 20193] cannot be broadcast to indexing result of shape [3, 8534]"
+  },
+  {
+    "video": "UYkFSXsh.mp4",
+    "video_id": "UYkFSXsh",
+    "question": "At what point in the video do the audience members cheer?",
+    "candidates": [
+      "A. In the middle of the video.",
+      "B. Throughout the video.",
+      "C. At the end of the video.",
+      "D. At the beginning of the video."
+    ],
+    "video_caption": "The video begins with a light background and a logo at the top center. Below the logo is a youtube subscribe button. At the bottom of the screen is a text overlay. The video transitions to a scene that is bordered by a multi-colored frame. In the center of the screen is a man holding a microphone. There is a white backdrop behind him with text at the top, and there is a christmas tree on the right. A text banner along with several social media icons appears at the bottom of the video. The scene then changes to show an audience of people sitting. The scene then returns to the man speaking, and he gestures with his hands. He then points at the camera and continues talking. The camera then continues to focus on him as he gestures and talks. During this time a variety of banners appear at the bottom of the screen with different advertisements. The video then ends with a final scene of him standing and facing the camera.",
+    "correct_answer": "D",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Temporal Localization",
+    "data_type": "Recognition",
+    "domain": "Culture & Politics",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 20193] cannot be broadcast to indexing result of shape [3, 8526]"
+  },
+  {
+    "video": "hHwdqJxc.mp4",
+    "video_id": "hHwdqJxc",
+    "question": "How many times does the woman's voice appear in the video?",
+    "candidates": [
+      "A. One.",
+      "B. Two.",
+      "C. Four.",
+      "D. Three."
+    ],
+    "video_caption": "The video contains 14 distinct clips that are stitched together.The first clip shows a person wearing a white hard hat with the text \"THIESS\" and the name \"PHIL\" printed on it, sunglasses, and an orange shirt with a white stripe. They appear to be standing in front of a large industrial construction site, with various metal structures, scaffolding, and equipment visible.  There are also orange safety cones on the ground.The second clip shows a person wearing a dark polo shirt with a red logo, and dark pants, standing in front of several garages with the text \"MARUSSIA F1 TEAM\" on them.  Multiple people and several racing cars can be seen in the garage.The third clip shows race cars entering pit stops. A race team is present, and appear to be working on the cars.  The first car is silver, the second is red and blue, the third is red, and the fourth is white and blue.The fourth clip shows the same person as in the second clip standing in the same location. A couple of other people appear in the background.The fifth clip shows a race car driving on a race track. People can be seen in the stands.The sixth clip shows a race car driving on a race track.The seventh clip shows the same person as in the second and fourth clips standing in the same location. Multiple people wearing orange uniforms appear in the background.The eighth clip shows the same person as in the second, fourth, and seventh clips standing in the same location.The ninth clip shows the same person as in the first clip wearing a plaid shirt, in front of a building with the text \"SCANIA\" on it.The tenth clip shows a person wearing a white hard hat with the text \"Schlumberger\" on it, safety glasses, and a blue uniform, standing in front of a white door and a gray wall, with various safety signs also visible.The eleventh clip shows the same person as in the ninth clip wearing a blue shirt, in front of a balcony. There are several buildings in the background.The twelfth clip shows the same person as in the first clip wearing a white hard hat, sunglasses, and an orange shirt in front of a body of water. There is construction equipment, and a partially constructed bridge visible.The thirteenth clip shows the same person as in the second, fourth, seventh and eighth clips wearing a red polo shirt with a black stripe on the side, standing in front of three framed pieces of wall art.The fourteenth clip shows four people standing together in front of a framed image of a vehicle.The fifteenth clip shows a person wearing a yellow safety vest and glasses in a car. A building and a road are visible in the background.The sixteenth clip shows a person wearing a gray hoodie against a plain white background.The seventeenth clip shows a person wearing a black jacket in front of a red staircase.The eighteenth clip shows a person with a beard, wearing a blue hoodie, against a plain orange background.The nineteenth clip shows a person wearing glasses in front of a tractor, followed by a brief shot of the same person in what appears to be a workshop, holding a piece of equipment. The clip concludes with a shot of the person working on two monitors, with a phone to the right of the monitors.The twentieth clip shows a person wearing a dark jacket and a white shirt, standing in front of a paved road, a tree, shrubs, and a modern building with an angular facade.The twenty-first clip shows a person wearing a white t-shirt, with a picture in the background, in a room, with a bed to the left and a dresser on the right.The twenty-second clip shows a person wearing a military uniform in front of a ship with the number \"150\" on its hull.",
+    "correct_answer": "B",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Audio Counting",
+    "data_type": "Recognition",
+    "domain": "Tech & Science",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 62859] cannot be broadcast to indexing result of shape [3, 26133]"
+  },
+  {
+    "video": "rgAZIyvn.mp4",
+    "video_id": "rgAZIyvn",
+    "question": "What change occurs in the little girl's voice in the video?",
+    "candidates": [
+      "A. It changes from loud to soft.",
+      "B. It changes from soft to loud.",
+      "C. It remains very quiet.",
+      "D. It remains very loud."
+    ],
+    "video_caption": "A single person is visible in the video. They are holding a dark colored tablet and are wearing a white and light blue shirt. They also have a white object with black details wrapped around their neck. They are standing or sitting in front of a shelf with books and a dark brown door behind them. At certain points, they are in front of a shelf that is a light color. On this shelf is a bowl that has something that is a light reddish purple color in it, as well as a green and orange cylindrical object. The person in the video is moving their hands, looking at their tablet, and speaking.",
+    "correct_answer": "D",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Audio Change",
+    "data_type": "Reasoning",
+    "domain": "Daily Life",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 16977] cannot be broadcast to indexing result of shape [3, 7184]"
+  },
+  {
+    "video": "KZsaltBw.mp4",
+    "video_id": "KZsaltBw",
+    "question": "What is the overall atmosphere of the entire video?",
+    "candidates": [
+      "A. Plain.",
+      "B. Lively.",
+      "C. Relaxed.",
+      "D. Tense."
+    ],
+    "video_caption": "The video starts with the text “UNPREPARED PASSENGERS” on a black screen.  The scene then cuts to an airport security checkpoint. Three security officers wearing blue uniforms are standing near an X-ray machine, with a conveyor belt going into it.  A man in a light-colored shirt walks up to the conveyor belt and places a dark-colored item onto the belt.  A woman in a tan coat walks towards the belt. Then a woman with blond hair in a black shirt walks to the conveyor belt. A text bubble appears with the text “She has a firearm in her bag” near the woman with the tan coat. A security officer gestures, and a text bubble appears with the text “He’s calling a supervisor.” Another security officer speaks on the phone. Then, a text bubble appears with the text “Now they’re calling the police”. The woman with the blond hair places an item on the conveyor belt.  A text bubble appears with the text “Meanwhile, everyone has to wait.” At 4:58, the text bubble changes to \"It takes about 4 minutes for the officer to arrive.\" The security officer in the blue shirt speaks to the woman in the tan jacket. Then the text appears with \"Now they search her bag.\" The woman in the tan coat puts her bag in a bin. The officer searches it. Text appears with “They found the firearm and they will escort her out” and an area is circled on the security officer’s shirt, where she is holding a small red object. The video shifts to showing other people in the line.",
+    "correct_answer": "D",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Video Emotions",
+    "data_type": "Understanding",
+    "domain": "Daily Life",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 7174] cannot be broadcast to indexing result of shape [3, 3079]"
+  },
+  {
+    "video": "KZsaltBw.mp4",
+    "video_id": "KZsaltBw",
+    "question": "What is the process followed by the security officer after discovering a firearm?",
+    "candidates": [
+      "A. Open and search the bag, alert authorities, and then call the supervisor.",
+      "B. Alert authorities, call the supervisor, and then open and search the bag.",
+      "C. Call the supervisor, alert authorities, and then open and search the bag.",
+      "D. Open and search the bag, call the supervisor, and then alert authorities."
+    ],
+    "video_caption": "The video starts with the text “UNPREPARED PASSENGERS” on a black screen.  The scene then cuts to an airport security checkpoint. Three security officers wearing blue uniforms are standing near an X-ray machine, with a conveyor belt going into it.  A man in a light-colored shirt walks up to the conveyor belt and places a dark-colored item onto the belt.  A woman in a tan coat walks towards the belt. Then a woman with blond hair in a black shirt walks to the conveyor belt. A text bubble appears with the text “She has a firearm in her bag” near the woman with the tan coat. A security officer gestures, and a text bubble appears with the text “He’s calling a supervisor.” Another security officer speaks on the phone. Then, a text bubble appears with the text “Now they’re calling the police”. The woman with the blond hair places an item on the conveyor belt.  A text bubble appears with the text “Meanwhile, everyone has to wait.” At 4:58, the text bubble changes to \"It takes about 4 minutes for the officer to arrive.\" The security officer in the blue shirt speaks to the woman in the tan jacket. Then the text appears with \"Now they search her bag.\" The woman in the tan coat puts her bag in a bin. The officer searches it. Text appears with “They found the firearm and they will escort her out” and an area is circled on the security officer’s shirt, where she is holding a small red object. The video shifts to showing other people in the line.",
+    "correct_answer": "C",
+    "predicted_answer": null,
+    "is_correct": false,
+    "problem_type": "Event Sorting",
+    "data_type": "Understanding",
+    "domain": "Daily Life",
+    "model_response": "Error: shape mismatch: value tensor of shape [3, 7174] cannot be broadcast to indexing result of shape [3, 3132]"
+  }
+]

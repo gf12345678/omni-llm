@@ -1,0 +1,47 @@
+Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'mrope_section'}
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+Qwen2_5OmniToken2WavModel must inference with fp32, but flash_attention_2 only supports fp16 and bf16, attention implementation of Qwen2_5OmniToken2WavModel will fallback to sdpa.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]W0328 16:49:33.103000 2647288 site-packages/torch/distributed/elastic/agent/server/api.py:719] Received Signals.SIGINT death signal, shutting down workers
+W0328 16:49:33.103000 2647288 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2647417 closing signal SIGINT
+Loading checkpoint shards:   0%|          | 0/3 [00:04<?, ?it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/gaofeng/OmniZip/eval/eval_shortvid.py", line 727, in <module>
+[rank0]:     model, processor = load_model(model_path, f"cuda:{local_rank}", args)
+[rank0]:   File "/home/gaofeng/OmniZip/eval/eval_shortvid.py", line 306, in load_model
+[rank0]:     model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
+[rank0]:   File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py", line 4378, in from_pretrained
+[rank0]:     model = super().from_pretrained(
+[rank0]:   File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4573, in from_pretrained
+[rank0]:     ) = cls._load_pretrained_model(
+[rank0]:   File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5030, in _load_pretrained_model
+[rank0]:     disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(
+[rank0]:   File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/transformers/modeling_utils.py", line 807, in _load_state_dict_into_meta_model
+[rank0]:     param = param.to(casting_dtype)
+[rank0]: KeyboardInterrupt
+[rank0]:[W328 16:49:33.414872247 ProcessGroupNCCL.cpp:1496] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Traceback (most recent call last):
+  File "/home/gaofeng/anaconda3/envs/omnizip/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 260, in launch_agent
+    result = agent.run()
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/home/gaofeng/anaconda3/envs/omnizip/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 2647288 got signal: 2

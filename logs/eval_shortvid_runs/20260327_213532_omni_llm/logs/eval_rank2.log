@@ -1,0 +1,19 @@
+2026-03-27 21:35:47,107 - rank2 - INFO - 进程 2/4 启动: 负责样本 14 到 21 (共 7 个)
+2026-03-27 21:35:47,108 - rank2 - INFO - [PROGRESS] WorldSense started on rank 2, local samples: 7
+2026-03-27 21:35:47,108 - rank2 - INFO - [WorldSense] Processing sample 1/7: ksQrDUgx.mp4
+2026-03-27 21:35:54,811 - rank2 - INFO - WorldSense processed ksQrDUgx.mp4: C -> C (✓)
+2026-03-27 21:35:54,811 - rank2 - INFO - [WorldSense] Processing sample 2/7: ksQrDUgx.mp4
+2026-03-27 21:36:00,614 - rank2 - INFO - WorldSense processed ksQrDUgx.mp4: B -> B (✓)
+2026-03-27 21:36:00,614 - rank2 - INFO - [WorldSense] Processing sample 3/7: iEWqgNPY.mp4
+2026-03-27 21:36:04,136 - rank2 - INFO - WorldSense processed iEWqgNPY.mp4: A -> A (✓)
+2026-03-27 21:36:04,136 - rank2 - INFO - [WorldSense] Processing sample 4/7: lJSKEFPd.mp4
+2026-03-27 21:36:08,938 - rank2 - INFO - WorldSense processed lJSKEFPd.mp4: B -> B (✓)
+2026-03-27 21:36:08,940 - rank2 - INFO - [WorldSense] Processing sample 5/7: NuwraABy.mp4
+2026-03-27 21:36:12,672 - rank2 - INFO - WorldSense processed NuwraABy.mp4: C -> A (✗)
+2026-03-27 21:36:12,672 - rank2 - INFO - [WorldSense] Processing sample 6/7: BnseaLEM.mp4
+2026-03-27 21:36:15,534 - rank2 - INFO - WorldSense processed BnseaLEM.mp4: D -> B (✗)
+2026-03-27 21:36:15,534 - rank2 - INFO - [WorldSense] Processing sample 7/7: BnseaLEM.mp4
+2026-03-27 21:36:18,464 - rank2 - INFO - WorldSense processed BnseaLEM.mp4: C -> C (✓)
+2026-03-27 21:36:18,465 - rank2 - INFO - [WorldSense] Rank 2 分片结果已写入 logs/eval_shortvid_runs/20260327_213532_omni_llm/WorldSense/evaluation_results_rank2.json
+2026-03-27 21:36:18,465 - rank2 - INFO - [PROGRESS] WorldSense local evaluation finished on rank 2
+2026-03-27 21:36:18,465 - rank2 - INFO - Rank 2 已完成本地推理，等待其他进程到达同步点...

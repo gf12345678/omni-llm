@@ -483,6 +483,22 @@ class Qwen2_5OmniPreTrainedModelForConditionalGeneration(Qwen2_5OmniPreTrainedMo
                         t_ntoken_per_chunk = int(position_id_per_seconds * seconds_per_chunk)
                         video_chunk_indexes = self.get_chunked_index(video_llm_pos_ids[0], t_ntoken_per_chunk, st_idx)
                         audio_chunk_indexes = self.get_chunked_index(audio_llm_pos_ids[0], t_ntoken_per_chunk, st_idx)
+                        """
+                        # debug
+                        video_chunk_lengths = [chunk_end - chunk_start for chunk_start, chunk_end in video_chunk_indexes]
+                        audio_chunk_lengths = [chunk_end - chunk_start for chunk_start, chunk_end in audio_chunk_indexes]
+                        print(
+                            "[OmniZip chunk lengths] "
+                            f"video_token_count={sum(video_chunk_lengths)}, "
+                            f"audio_token_count={sum(audio_chunk_lengths)}, "
+                            f"video_chunk_count={len(video_chunk_indexes)}, "
+                            f"audio_chunk_count={len(audio_chunk_indexes)}, "
+                            f"video_chunk_lengths={video_chunk_lengths}, "
+                            f"audio_chunk_lengths={audio_chunk_lengths}",
+                            flush=True,
+                        )
+                        # debug end
+                        """
                         sub_len = 0
                         for j in range(max(len(video_chunk_indexes), len(audio_chunk_indexes))):
                             video_chunk_index = video_chunk_indexes[j] if j < len(video_chunk_indexes) else None
@@ -2473,7 +2489,6 @@ class Qwen2_5OmniThinkerForConditionalGeneration(Qwen2_5OmniPreTrainedModelForCo
         if inputs_embeds is None:
             # 1. Extract the input embeddings
             inputs_embeds = self.get_input_embeddings()(input_ids)
-
         # 2. Merge text , audios , image and video
         if input_ids is not None and input_ids.shape[1] != 1:  # Prefill stage
             if input_features is not None:
@@ -2562,7 +2577,6 @@ class Qwen2_5OmniThinkerForConditionalGeneration(Qwen2_5OmniPreTrainedModelForCo
                     "g": 3,
                     "contextual_ratio": 0.05,
                 }
-
             inputs_embeds, global_mask = omnizip(
                 inputs_embeds,
                 attn_logits,
@@ -2580,6 +2594,13 @@ class Qwen2_5OmniThinkerForConditionalGeneration(Qwen2_5OmniPreTrainedModelForCo
             if attention_mask is not None:
                 attention_mask = attention_mask[:, global_mask]
             position_ids = position_ids.to(inputs_embeds.device)[:, :, global_mask]
+        """
+        if input_ids is not None and input_ids.shape[1] != 1:
+            print("position_ids.shape: ", position_ids.shape)
+            print("inputs_embeds.shape: ", inputs_embeds.shape)
+            print("attention_mask.shape: ", attention_mask.shape)
+        """
+
 
         outputs = self.model(
             attention_mask=attention_mask,

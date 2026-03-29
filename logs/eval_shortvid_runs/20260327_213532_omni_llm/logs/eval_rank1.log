@@ -1,0 +1,19 @@
+2026-03-27 21:35:47,076 - rank1 - INFO - 进程 1/4 启动: 负责样本 7 到 14 (共 7 个)
+2026-03-27 21:35:47,077 - rank1 - INFO - [PROGRESS] WorldSense started on rank 1, local samples: 7
+2026-03-27 21:35:47,077 - rank1 - INFO - [WorldSense] Processing sample 1/7: KZsaltBw.mp4
+2026-03-27 21:35:51,536 - rank1 - INFO - WorldSense processed KZsaltBw.mp4: A -> A (✓)
+2026-03-27 21:35:51,536 - rank1 - INFO - [WorldSense] Processing sample 2/7: KZsaltBw.mp4
+2026-03-27 21:35:53,997 - rank1 - INFO - WorldSense processed KZsaltBw.mp4: C -> A (✗)
+2026-03-27 21:35:53,998 - rank1 - INFO - [WorldSense] Processing sample 3/7: kenhCuOM.mp4
+2026-03-27 21:35:59,457 - rank1 - INFO - WorldSense processed kenhCuOM.mp4: D -> D (✓)
+2026-03-27 21:35:59,457 - rank1 - INFO - [WorldSense] Processing sample 4/7: kenhCuOM.mp4
+2026-03-27 21:36:05,055 - rank1 - INFO - WorldSense processed kenhCuOM.mp4: C -> B (✗)
+2026-03-27 21:36:05,056 - rank1 - INFO - [WorldSense] Processing sample 5/7: TGqYCmQM.mp4
+2026-03-27 21:36:08,547 - rank1 - INFO - WorldSense processed TGqYCmQM.mp4: B -> B (✓)
+2026-03-27 21:36:08,547 - rank1 - INFO - [WorldSense] Processing sample 6/7: TGqYCmQM.mp4
+2026-03-27 21:36:12,044 - rank1 - INFO - WorldSense processed TGqYCmQM.mp4: D -> D (✓)
+2026-03-27 21:36:12,044 - rank1 - INFO - [WorldSense] Processing sample 7/7: JWilJddD.mp4
+2026-03-27 21:36:18,573 - rank1 - INFO - WorldSense processed JWilJddD.mp4: B -> B (✓)
+2026-03-27 21:36:18,574 - rank1 - INFO - [WorldSense] Rank 1 分片结果已写入 logs/eval_shortvid_runs/20260327_213532_omni_llm/WorldSense/evaluation_results_rank1.json
+2026-03-27 21:36:18,574 - rank1 - INFO - [PROGRESS] WorldSense local evaluation finished on rank 1
+2026-03-27 21:36:18,574 - rank1 - INFO - Rank 1 已完成本地推理，等待其他进程到达同步点...

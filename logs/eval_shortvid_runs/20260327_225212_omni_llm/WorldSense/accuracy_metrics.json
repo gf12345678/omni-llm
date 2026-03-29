@@ -1,0 +1,179 @@
+{
+  "overall_accuracy": 0.4489281210592686,
+  "total_correct": 1424,
+  "total_samples": 3172,
+  "domain_accuracy": {
+    "Music": {
+      "accuracy": 0.43349753694581283,
+      "correct": 176,
+      "total": 406
+    },
+    "Culture & Politics": {
+      "accuracy": 0.47249190938511326,
+      "correct": 146,
+      "total": 309
+    },
+    "Tech & Science": {
+      "accuracy": 0.4857142857142857,
+      "correct": 238,
+      "total": 490
+    },
+    "Daily Life": {
+      "accuracy": 0.45440729483282677,
+      "correct": 299,
+      "total": 658
+    },
+    "Film & TV": {
+      "accuracy": 0.44327176781002636,
+      "correct": 168,
+      "total": 379
+    },
+    "Sports": {
+      "accuracy": 0.43953488372093025,
+      "correct": 189,
+      "total": 430
+    },
+    "Performance": {
+      "accuracy": 0.4157303370786517,
+      "correct": 111,
+      "total": 267
+    },
+    "Games": {
+      "accuracy": 0.41630901287553645,
+      "correct": 97,
+      "total": 233
+    }
+  },
+  "problem_type_accuracy": {
+    "Spatial Relation": {
+      "accuracy": 0.3604060913705584,
+      "correct": 71,
+      "total": 197
+    },
+    "Audio Change": {
+      "accuracy": 0.37349397590361444,
+      "correct": 31,
+      "total": 83
+    },
+    "Temporal Localization": {
+      "accuracy": 0.28402366863905326,
+      "correct": 48,
+      "total": 169
+    },
+    "Audio Counting": {
+      "accuracy": 0.36666666666666664,
+      "correct": 33,
+      "total": 90
+    },
+    "Video Emotions": {
+      "accuracy": 0.6875,
+      "correct": 33,
+      "total": 48
+    },
+    "Event Sorting": {
+      "accuracy": 0.5087719298245614,
+      "correct": 87,
+      "total": 171
+    },
+    "Event Recognition": {
+      "accuracy": 0.5737704918032787,
+      "correct": 70,
+      "total": 122
+    },
+    "Attribute Recognition": {
+      "accuracy": 0.5359116022099447,
+      "correct": 97,
+      "total": 181
+    },
+    "Audio Recognition": {
+      "accuracy": 0.5862068965517241,
+      "correct": 68,
+      "total": 116
+    },
+    "Human-object Interaction": {
+      "accuracy": 0.4566929133858268,
+      "correct": 58,
+      "total": 127
+    },
+    "Audio Source Localization": {
+      "accuracy": 0.44166666666666665,
+      "correct": 53,
+      "total": 120
+    },
+    "Attribute Reasoning": {
+      "accuracy": 0.49586776859504134,
+      "correct": 60,
+      "total": 121
+    },
+    "Temporal Prediction": {
+      "accuracy": 0.5363636363636364,
+      "correct": 59,
+      "total": 110
+    },
+    "Object Counting": {
+      "accuracy": 0.2634146341463415,
+      "correct": 54,
+      "total": 205
+    },
+    "Relation Reasoning": {
+      "accuracy": 0.4880952380952381,
+      "correct": 41,
+      "total": 84
+    },
+    "Action Counting": {
+      "accuracy": 0.34545454545454546,
+      "correct": 57,
+      "total": 165
+    },
+    "Text and Diagram Understanding": {
+      "accuracy": 0.4626865671641791,
+      "correct": 62,
+      "total": 134
+    },
+    "Causal Reasoning": {
+      "accuracy": 0.6026490066225165,
+      "correct": 91,
+      "total": 151
+    },
+    "Human Emotions": {
+      "accuracy": 0.5204081632653061,
+      "correct": 51,
+      "total": 98
+    },
+    "Hallucination": {
+      "accuracy": 0.32222222222222224,
+      "correct": 29,
+      "total": 90
+    },
+    "Anomaly Recognition": {
+      "accuracy": 0.4430379746835443,
+      "correct": 35,
+      "total": 79
+    },
+    "Human Interaction": {
+      "accuracy": 0.3939393939393939,
+      "correct": 52,
+      "total": 132
+    },
+    "Emotion Change": {
+      "accuracy": 0.4375,
+      "correct": 42,
+      "total": 96
+    },
+    "Scene Recognition": {
+      "accuracy": 0.4567901234567901,
+      "correct": 37,
+      "total": 81
+    },
+    "Object State Change": {
+      "accuracy": 0.47368421052631576,
+      "correct": 45,
+      "total": 95
+    },
+    "Object Existence Recognition": {
+      "accuracy": 0.5607476635514018,
+      "correct": 60,
+      "total": 107
+    }
+  }
+}

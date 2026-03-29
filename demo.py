@@ -5,16 +5,25 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser(description="Qwen2.5-Omni Demo Parameters")
-parser.add_argument('--video', type=str, default="assets/example.mp4", help='Path to input video file')
+parser.add_argument('--video', type=str, default="/home/gaofeng/OmniZip/assets/example.mp4", help='Path to input video file')
 parser.add_argument('--describe', type=str, default="Describe this video.", help='Instruction text for the model')
 parser.add_argument('--omnizip', action='store_true', help='Whether to enable omnizip')
+parser.add_argument(
+    '--wrapper-method',
+    type=str,
+    default=None,
+    choices=['base', 'omnizip', 'omni_llm'],
+    help='Model wrapper to use. Defaults to omnizip when --omnizip is set, otherwise base.',
+)
 parser.add_argument('--rho_audio', type=float, default=0.4, help='Merging ratio for audio')
 parser.add_argument('--rho_video', type=float, default=0.7, help='Merging ratio for video')
 parser.add_argument('--g', type=int, default=3)
 parser.add_argument('--contextual_ratio', type=float, default=0.05, help='Contextual ratio')
 args = parser.parse_args()
 
-if args.omnizip:
+wrapper_method = args.wrapper_method or ("omnizip" if args.omnizip else "base")
+
+if wrapper_method == "omnizip":
     print("Using OmniZip for Inference")
     omnizip_config = {
         "rho_audio": args.rho_audio,
@@ -23,10 +32,14 @@ if args.omnizip:
         "contextual_ratio": args.contextual_ratio,
     }
     from omnizip.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
+elif wrapper_method == "omni_llm":
+    print("Using Omni-LLM for Inference")
+    from omni_llm.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
 else:
+    print("Using base Qwen2.5-Omni for Inference")
     from transformers import Qwen2_5OmniForConditionalGeneration
 
-model_path = "Qwen/Qwen2.5-Omni-7B"
+model_path = "/home/gaofeng/Qwen2.5-Omni-3B"
 model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
     model_path,
     torch_dtype="auto",
@@ -35,7 +48,7 @@ model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
 )
 
 model.omnizip_config = None
-if args.omnizip:
+if wrapper_method == "omnizip":
     model.thinker.omnizip_config = omnizip_config
 processor = Qwen2_5OmniProcessor.from_pretrained(model_path)
 

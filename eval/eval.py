@@ -29,8 +29,11 @@ OMNIZIP_CONTEXTUAL_RATIO = args.OMNIZIP_CONTEXTUAL_RATIO
 if WAPPER_METHOD == 'omnizip':
     print('Using omni method')
     from omnizip.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
+elif WAPPER_METHOD == 'omni_llm':
+    print('Using omni_llm method')
+    from omni_llm.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
 else:
-    print("Not found WAPPER-METHOD")
+    print('Using base method')
     from transformers import Qwen2_5OmniForConditionalGeneration
 
 from qwen_omni_utils import process_mm_info
@@ -51,9 +54,14 @@ DATA_PATH = os.path.join("Data", "WorldSense", "worldsense_qa.json")
 VIDEO_DIR = os.path.join("Data", "WorldSense", "videos")
 MODEL_PATH = "huggingface/Qwen2.5-Omni-3B"
 
+VIDEO_DIR = "/home/gaofeng/omni-dataset/WorldSense/videos"
+DATA_PATH = "/home/gaofeng/omni-dataset/WorldSense/worldsense_qa.json"
+MODEL_PATH = "/home/gaofeng/Qwen2.5-Omni-3B"
+
+
 current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 log_prefix = f"{current_time}_{WAPPER_METHOD}" if WAPPER_METHOD else f"{current_time}_default"
-OUTPUT_DIR = os.path.join("logs/results_worldsense", log_prefix)
+OUTPUT_DIR = os.path.join("logs/results_worldsense_qa", log_prefix)
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

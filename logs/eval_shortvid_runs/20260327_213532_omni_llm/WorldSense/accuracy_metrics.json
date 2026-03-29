@@ -1,0 +1,124 @@
+{
+  "overall_accuracy": 0.6153846153846154,
+  "total_correct": 16,
+  "total_samples": 26,
+  "domain_accuracy": {
+    "Music": {
+      "accuracy": 0.6153846153846154,
+      "correct": 8,
+      "total": 13
+    },
+    "Culture & Politics": {
+      "accuracy": 0.5,
+      "correct": 1,
+      "total": 2
+    },
+    "Tech & Science": {
+      "accuracy": 0.5,
+      "correct": 1,
+      "total": 2
+    },
+    "Daily Life": {
+      "accuracy": 0.6,
+      "correct": 3,
+      "total": 5
+    },
+    "Film & TV": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "total": 1
+    },
+    "Sports": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "total": 2
+    },
+    "Performance": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    }
+  },
+  "problem_type_accuracy": {
+    "Spatial Relation": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "Audio Change": {
+      "accuracy": 0.25,
+      "correct": 1,
+      "total": 4
+    },
+    "Temporal Localization": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "Audio Counting": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "total": 1
+    },
+    "Video Emotions": {
+      "accuracy": 0.6666666666666666,
+      "correct": 2,
+      "total": 3
+    },
+    "Event Sorting": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "total": 2
+    },
+    "Event Recognition": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "total": 2
+    },
+    "Attribute Recognition": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "Audio Recognition": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "total": 2
+    },
+    "Human-object Interaction": {
+      "accuracy": 0.5,
+      "correct": 1,
+      "total": 2
+    },
+    "Audio Source Localization": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "total": 2
+    },
+    "Attribute Reasoning": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "total": 1
+    },
+    "Temporal Prediction": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "total": 1
+    },
+    "Object Counting": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    },
+    "Relation Reasoning": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "total": 1
+    },
+    "Action Counting": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1
+    }
+  }
+}

@@ -1,0 +1,43 @@
+2026-03-28 17:09:17,260 - rank0 - INFO - [PROGRESS] Run outputs are being written to logs/eval_shortvid_runs/20260328_170906_dycoke_qwenomni3b_oa0.55_ov0.55_audio50f/
+2026-03-28 17:09:17,260 - rank0 - INFO - [PROGRESS] Wrapper method: dycoke
+2026-03-28 17:09:17,260 - rank0 - INFO - [PROGRESS] Selected benchmarks: WorldSense
+2026-03-28 17:09:17,282 - rank0 - INFO - 进程 0/1 启动: 负责样本 0 到 3 (共 3 个)
+2026-03-28 17:09:17,282 - rank0 - INFO - [PROGRESS] WorldSense mini test enabled: first 2 videos
+2026-03-28 17:09:17,282 - rank0 - INFO - [PROGRESS] WorldSense started on rank 0, local samples: 3
+2026-03-28 17:09:17,283 - rank0 - INFO - [WorldSense] Processing sample 1/3: dvOkwKAs.mp4
+2026-03-28 17:09:20,999 - rank0 - INFO - Dycoke audio total chunk count: 1
+2026-03-28 17:09:20,999 - rank0 - INFO - Dycoke audio chunk 0 original shape: (1501, 2048), split into 50 frames with shapes: [(30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (30, 2048), (31, 2048)]
+2026-03-28 17:09:21,032 - rank0 - INFO - Dycoke audio pruning keeps 908/1501 tokens.
+2026-03-28 17:09:21,033 - rank0 - INFO - Dycoke video total chunk count: 15
+2026-03-28 17:09:21,113 - rank0 - INFO - Dycoke video pruning keeps 4190/8640 tokens.
+2026-03-28 17:09:21,571 - rank0 - INFO - WorldSense processed dvOkwKAs.mp4: B -> D (✗)
+2026-03-28 17:09:21,572 - rank0 - INFO - [WorldSense] Processing sample 2/3: UYkFSXsh.mp4
+2026-03-28 17:09:24,316 - rank0 - INFO - Dycoke audio total chunk count: 1
+2026-03-28 17:09:24,316 - rank0 - INFO - Dycoke audio chunk 0 original shape: (2994, 2048), split into 50 frames with shapes: [(59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048)]
+2026-03-28 17:09:24,324 - rank0 - INFO - Dycoke audio pruning keeps 1776/2994 tokens.
+2026-03-28 17:09:24,325 - rank0 - INFO - Dycoke video total chunk count: 30
+2026-03-28 17:09:24,344 - rank0 - INFO - Dycoke video pruning keeps 7888/17136 tokens.
+2026-03-28 17:09:25,090 - rank0 - INFO - WorldSense processed UYkFSXsh.mp4: B -> B (✓)
+2026-03-28 17:09:25,090 - rank0 - INFO - [WorldSense] Processing sample 3/3: UYkFSXsh.mp4
+2026-03-28 17:09:27,757 - rank0 - INFO - Dycoke audio total chunk count: 1
+2026-03-28 17:09:27,757 - rank0 - INFO - Dycoke audio chunk 0 original shape: (2994, 2048), split into 50 frames with shapes: [(59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (59, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048), (60, 2048)]
+2026-03-28 17:09:27,765 - rank0 - INFO - Dycoke audio pruning keeps 1776/2994 tokens.
+2026-03-28 17:09:27,766 - rank0 - INFO - Dycoke video total chunk count: 30
+2026-03-28 17:09:27,785 - rank0 - INFO - Dycoke video pruning keeps 7888/17136 tokens.
+2026-03-28 17:09:28,545 - rank0 - INFO - WorldSense processed UYkFSXsh.mp4: D -> C (✗)
+2026-03-28 17:09:28,545 - rank0 - INFO - [PROGRESS] WorldSense local evaluation finished on rank 0
+2026-03-28 17:09:28,545 - rank0 - INFO - Rank 0 已完成本地推理，等待其他进程到达同步点...
+2026-03-28 17:09:29,753 - rank0 - INFO - [PROGRESS] WorldSense gather finished, total samples: 3
+2026-03-28 17:09:29,754 - rank0 - INFO - [WorldSense] 总结果已写入 logs/eval_shortvid_runs/20260328_170906_dycoke_qwenomni3b_oa0.55_ov0.55_audio50f/WorldSense/final_results_total.json
+2026-03-28 17:09:29,754 - rank0 - INFO - [WorldSense] 指标已写入 logs/eval_shortvid_runs/20260328_170906_dycoke_qwenomni3b_oa0.55_ov0.55_audio50f/WorldSense/accuracy_metrics.json
+2026-03-28 17:09:29,754 - rank0 - INFO - [RESULT] ==================================================
+2026-03-28 17:09:29,754 - rank0 - INFO - [RESULT] WorldSense EVALUATION COMPLETED
+2026-03-28 17:09:29,754 - rank0 - INFO - [RESULT] ==================================================
+2026-03-28 17:09:29,754 - rank0 - INFO - [RESULT] Overall Accuracy: 0.3333 (1/3)
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT] domain_accuracy:
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT]   Music: 0.0000 (0/1)
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT]   Culture & Politics: 0.5000 (1/2)
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT] problem_type_accuracy:
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT]   Spatial Relation: 0.0000 (0/1)
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT]   Audio Change: 1.0000 (1/1)
+2026-03-28 17:09:29,755 - rank0 - INFO - [RESULT]   Temporal Localization: 0.0000 (0/1)

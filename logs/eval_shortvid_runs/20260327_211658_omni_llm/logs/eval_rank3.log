@@ -1,0 +1,15 @@
+2026-03-27 21:17:13,402 - rank3 - INFO - 进程 3/4 启动: 负责样本 21 到 26 (共 5 个)
+2026-03-27 21:17:13,402 - rank3 - INFO - [PROGRESS] WorldSense started on rank 3, local samples: 5
+2026-03-27 21:17:13,403 - rank3 - INFO - [WorldSense] Processing sample 1/5: NBzSgbJK.mp4
+2026-03-27 21:17:24,566 - rank3 - INFO - WorldSense processed NBzSgbJK.mp4: C -> None (✗)
+2026-03-27 21:17:24,566 - rank3 - INFO - [WorldSense] Processing sample 2/5: doGbGgQs.mp4
+2026-03-27 21:17:28,031 - rank3 - INFO - WorldSense processed doGbGgQs.mp4: C -> None (✗)
+2026-03-27 21:17:28,031 - rank3 - INFO - [WorldSense] Processing sample 3/5: wuUXIvIu.mp4
+2026-03-27 21:17:30,416 - rank3 - INFO - WorldSense processed wuUXIvIu.mp4: B -> None (✗)
+2026-03-27 21:17:30,416 - rank3 - INFO - [WorldSense] Processing sample 4/5: wuUXIvIu.mp4
+2026-03-27 21:17:32,797 - rank3 - INFO - WorldSense processed wuUXIvIu.mp4: B -> None (✗)
+2026-03-27 21:17:32,799 - rank3 - INFO - [WorldSense] Processing sample 5/5: wuUXIvIu.mp4
+2026-03-27 21:17:35,072 - rank3 - INFO - WorldSense processed wuUXIvIu.mp4: C -> None (✗)
+2026-03-27 21:17:35,073 - rank3 - INFO - [WorldSense] Rank 3 分片结果已写入 logs/eval_shortvid_runs/20260327_211658_omni_llm/WorldSense/evaluation_results_rank3.json
+2026-03-27 21:17:35,073 - rank3 - INFO - [PROGRESS] WorldSense local evaluation finished on rank 3
+2026-03-27 21:17:35,074 - rank3 - INFO - Rank 3 已完成本地推理，等待其他进程到达同步点...

@@ -1,0 +1,179 @@
+{
+  "overall_accuracy": 0.4656368221941992,
+  "total_correct": 1477,
+  "total_samples": 3172,
+  "domain_accuracy": {
+    "Music": {
+      "accuracy": 0.46798029556650245,
+      "correct": 190,
+      "total": 406
+    },
+    "Culture & Politics": {
+      "accuracy": 0.5080906148867314,
+      "correct": 157,
+      "total": 309
+    },
+    "Tech & Science": {
+      "accuracy": 0.5204081632653061,
+      "correct": 255,
+      "total": 490
+    },
+    "Daily Life": {
+      "accuracy": 0.4574468085106383,
+      "correct": 301,
+      "total": 658
+    },
+    "Film & TV": {
+      "accuracy": 0.44063324538258575,
+      "correct": 167,
+      "total": 379
+    },
+    "Sports": {
+      "accuracy": 0.44883720930232557,
+      "correct": 193,
+      "total": 430
+    },
+    "Performance": {
+      "accuracy": 0.4419475655430712,
+      "correct": 118,
+      "total": 267
+    },
+    "Games": {
+      "accuracy": 0.41201716738197425,
+      "correct": 96,
+      "total": 233
+    }
+  },
+  "problem_type_accuracy": {
+    "Spatial Relation": {
+      "accuracy": 0.38071065989847713,
+      "correct": 75,
+      "total": 197
+    },
+    "Audio Change": {
+      "accuracy": 0.3855421686746988,
+      "correct": 32,
+      "total": 83
+    },
+    "Temporal Localization": {
+      "accuracy": 0.30177514792899407,
+      "correct": 51,
+      "total": 169
+    },
+    "Audio Counting": {
+      "accuracy": 0.36666666666666664,
+      "correct": 33,
+      "total": 90
+    },
+    "Video Emotions": {
+      "accuracy": 0.7291666666666666,
+      "correct": 35,
+      "total": 48
+    },
+    "Event Sorting": {
+      "accuracy": 0.49707602339181284,
+      "correct": 85,
+      "total": 171
+    },
+    "Event Recognition": {
+      "accuracy": 0.5819672131147541,
+      "correct": 71,
+      "total": 122
+    },
+    "Attribute Recognition": {
+      "accuracy": 0.56353591160221,
+      "correct": 102,
+      "total": 181
+    },
+    "Audio Recognition": {
+      "accuracy": 0.6120689655172413,
+      "correct": 71,
+      "total": 116
+    },
+    "Human-object Interaction": {
+      "accuracy": 0.49606299212598426,
+      "correct": 63,
+      "total": 127
+    },
+    "Audio Source Localization": {
+      "accuracy": 0.4666666666666667,
+      "correct": 56,
+      "total": 120
+    },
+    "Attribute Reasoning": {
+      "accuracy": 0.5206611570247934,
+      "correct": 63,
+      "total": 121
+    },
+    "Temporal Prediction": {
+      "accuracy": 0.5545454545454546,
+      "correct": 61,
+      "total": 110
+    },
+    "Object Counting": {
+      "accuracy": 0.2780487804878049,
+      "correct": 57,
+      "total": 205
+    },
+    "Relation Reasoning": {
+      "accuracy": 0.5,
+      "correct": 42,
+      "total": 84
+    },
+    "Action Counting": {
+      "accuracy": 0.3151515151515151,
+      "correct": 52,
+      "total": 165
+    },
+    "Text and Diagram Understanding": {
+      "accuracy": 0.5074626865671642,
+      "correct": 68,
+      "total": 134
+    },
+    "Causal Reasoning": {
+      "accuracy": 0.609271523178808,
+      "correct": 92,
+      "total": 151
+    },
+    "Human Emotions": {
+      "accuracy": 0.5612244897959183,
+      "correct": 55,
+      "total": 98
+    },
+    "Hallucination": {
+      "accuracy": 0.3111111111111111,
+      "correct": 28,
+      "total": 90
+    },
+    "Anomaly Recognition": {
+      "accuracy": 0.4810126582278481,
+      "correct": 38,
+      "total": 79
+    },
+    "Human Interaction": {
+      "accuracy": 0.4090909090909091,
+      "correct": 54,
+      "total": 132
+    },
+    "Emotion Change": {
+      "accuracy": 0.4583333333333333,
+      "correct": 44,
+      "total": 96
+    },
+    "Scene Recognition": {
+      "accuracy": 0.48148148148148145,
+      "correct": 39,
+      "total": 81
+    },
+    "Object State Change": {
+      "accuracy": 0.49473684210526314,
+      "correct": 47,
+      "total": 95
+    },
+    "Object Existence Recognition": {
+      "accuracy": 0.5887850467289719,
+      "correct": 63,
+      "total": 107
+    }
+  }
+}
