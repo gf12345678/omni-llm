@@ -2575,14 +2575,13 @@ class Qwen2_5OmniThinkerForConditionalGeneration(Qwen2_5OmniPreTrainedModelForCo
             inputs_embeds = inputs_embeds[:, global_mask, :]
             if attention_mask is not None:
                 attention_mask = attention_mask[:, global_mask]
-            position_ids = position_ids.to(inputs_embeds.device)[:, :, global_mask
+            position_ids = position_ids.to(inputs_embeds.device)[:, :, global_mask]
         """
         if input_ids is not None and input_ids.shape[1] != 1:
             print("position_ids.shape: ", position_ids.shape)
             print("inputs_embeds.shape: ", inputs_embeds.shape)
             print("attention_mask.shape: ", attention_mask.shape)
         """
-
         outputs = self.model(
             attention_mask=attention_mask,
             position_ids=position_ids,
