@@ -1,123 +1,58 @@
 import torch
 from typing import Dict, List, Tuple, Optional
 
-def dycoke_audio(
-    audio_feature: torch.Tensor,
+def prune_dycoke(
+    feature: torch.Tensor,
     prune_ratio: float = 0.5,
-) -> Tuple[torch.Tensor, Dict[int, List[int]]]:
+    num_tokens_per_chunk: int = 288,
+) -> torch.Tensor:
     def to_seq(x):
         if x is None:
             return None
         return x.mean(0) if x.dim() == 3 else x
-    device = audio_feature.device
-    a = to_seq(audio_feature).to(device)
+    device = feature.device
+    a = to_seq(feature).to(device)
     N = a.size(0)
+    num_frames = a.shape[0] // num_tokens_per_chunk
+
     if N == 0:
-        return torch.zeros(0, dtype=torch.bool, device=device), {}
-    keep_mask = torch.zeros(N, dtype=torch.bool, device=device)
-    group_size = N // 4
+        return torch.zeros(0, dtype=torch.bool, device=device)
+    keep_mask = torch.ones(N, dtype=torch.bool, device=device)
 
-    if group_size == 0:
-        keep_mask[:] = True
-        return keep_mask, {}
+    for t in range(num_frames):
+        start_idx = t * num_tokens_per_chunk
+        end_idx = (t + 1) * num_tokens_per_chunk
+        tokens = a[start_idx:end_idx]
+        keep_mask[start_idx:end_idx] = False
+        group_size = tokens.shape[0] // 4
+        main_tokens = group_size * 4
+        keep_mask[start_idx+main_tokens:end_idx] = True
+        a_main = tokens[:main_tokens]
+        # a_norm = a_main / (a_main.norm(dim=-1, keepdim=True) + 1e-6)
+        group1 = a_main[:group_size]
+        group2 = a_main[group_size : 2 * group_size]
+        group3 = a_main[2 * group_size : 3 * group_size]
+        group4 = a_main[3 * group_size : 4 * group_size]
 
-    main_tokens = group_size * 4
-    keep_mask[:group_size] = True
-    keep_mask[main_tokens:] = True
+        keep_num = int(max(0, min(group_size, round((1.0 - prune_ratio*4/3) * group_size))))
 
-    a_main = a[:main_tokens]
-    a_norm = a_main / (a_main.norm(dim=-1, keepdim=True) + 1e-6)
+        def keep_low_similarity_tokens(group: torch.Tensor, ref: torch.Tensor, start_idx: int) -> None:
+            if keep_num <= 0:
+                return
+            if keep_num >= group_size:
+                keep_mask[start_idx : start_idx + group_size] = True
+                return
+            sims = torch.nn.functional.cosine_similarity(group, ref, dim=1)
+            _, keep_idx = torch.topk(sims, keep_num, largest=False)
+            keep_mask[start_idx + keep_idx] = True
 
-    group1 = a_norm[:group_size]
-    group2 = a_norm[group_size : 2 * group_size]
-    group3 = a_norm[2 * group_size : 3 * group_size]
-    group4 = a_norm[3 * group_size : 4 * group_size]
-
-    keep_num = int(max(0, min(group_size, round((1.0 - prune_ratio) * group_size))))
-
-    def keep_low_similarity_tokens(group: torch.Tensor, ref: torch.Tensor, start_idx: int) -> None:
-        if keep_num <= 0:
-            return
-        if keep_num >= group_size:
-            keep_mask[start_idx : start_idx + group_size] = True
-            return
-        sims = (group * ref).sum(dim=-1)
-        _, keep_idx = torch.topk(sims, keep_num, largest=False)
-        keep_mask[start_idx + keep_idx] = True
-
-    keep_low_similarity_tokens(group2, group1, group_size)
-    keep_low_similarity_tokens(group3, group1, 2 * group_size)
-    keep_low_similarity_tokens(group4, group3, 3 * group_size)
-
-    return keep_mask, {}
+        keep_low_similarity_tokens(group2, group1, start_idx+group_size)
+        keep_low_similarity_tokens(group4, group3, start_idx+3 * group_size)
+        keep_low_similarity_tokens(group3, group1, start_idx+2 * group_size)
+        keep_mask[start_idx:start_idx+group_size] = True
+    return keep_mask
 
 
-def omnizip_audio_attn(
-    audio_feature: torch.Tensor,
-    video_feature: Optional[torch.Tensor],
-    attn_logits: torch.Tensor,
-    merging_ratio: float = 0.5,
-    contextual_ratio: float = 0.03,
-    g: int = 3,
-) -> Tuple[torch.Tensor, Dict[int, List[int]]]:
-    device = attn_logits.device
-    def to_seq(x):
-        if x is None:
-            return None
-        return x.mean(0) if x.dim() == 3 else x
-
-    a = to_seq(audio_feature).to(device)
-    v = to_seq(video_feature).to(device) if video_feature is not None else None
-    N = a.size(0)
-    if N == 0:
-        return torch.zeros(0, dtype=torch.bool, device=device), {}
-
-    keep_mask = torch.zeros(N, dtype=torch.bool, device=device)
-    dominant_num = int(max(0, min(N, round((1.0 - merging_ratio) * N))))
-    if dominant_num > 0:
-        _, topk = torch.topk(attn_logits, dominant_num)
-        keep_mask[topk] = True
-
-    all_idx = torch.arange(N, device=device)
-    remaining = all_idx[~keep_mask]
-    contextual_num = int(max(0, round(contextual_ratio * N)))
-    merge_plan: Dict[int, List[int]] = {}
-
-    if remaining.numel() > 0 and contextual_num > 0:
-        contextual_num = min(contextual_num, remaining.numel())
-        step = max(1, remaining.numel() // contextual_num)
-        init_pos = torch.arange(0, remaining.numel(), step, device=device)[:contextual_num]
-        anchors = remaining[init_pos]
-        keep_mask[anchors] = True
-
-        rem_local_mask = torch.ones(remaining.numel(), dtype=torch.bool, device=device)
-        rem_local_mask[init_pos] = False
-        pool_global = remaining[torch.arange(remaining.numel(), device=device)[rem_local_mask]]
-
-        if pool_global.numel() > 0 and g > 0:
-            a_norm = a / (a.norm(dim=-1, keepdim=True) + 1e-6)
-            sim_aa = a_norm[pool_global] @ a_norm[anchors].T
-            assign = sim_aa.argmax(dim=1)
-            if v is not None and v.numel() > 0:
-                v_norm = v / (v.norm(dim=-1, keepdim=True) + 1e-6)
-                sim_av = a_norm[pool_global] @ v_norm.T
-                scores = sim_av.max(dim=1).values
-            else:
-                scores = sim_aa.max(dim=1).values
-            C = anchors.numel()
-            for c in range(C):
-                mask_c = (assign == c)
-                cand = pool_global[mask_c]
-                if cand.numel() == 0:
-                    merge_plan[int(anchors[c].item())] = []
-                    continue
-                scores_c = scores[mask_c]
-                topg = min(g, cand.numel())
-                _, sel = torch.topk(scores_c, topg, largest=True)
-                chosen = cand[sel].tolist()
-                merge_plan[int(anchors[c].item())] = chosen
-
-    return keep_mask, merge_plan
 
 def omnizip_istm(video_feature, num_tokens_per_frame=196, merging_ratio=[0.7, 0.7]):
 
@@ -171,6 +106,7 @@ def omnizip_istm(video_feature, num_tokens_per_frame=196, merging_ratio=[0.7, 0.
 
     return mask
 
+
 def dycoke(
     input_embeds: torch.Tensor,
     input_ids: torch.Tensor,
@@ -204,17 +140,47 @@ def dycoke(
 
     video_token_per_frame = video_feature.shape[0] // num_input_frames
 
-    audio_mask, _ = dycoke_audio(
-        audio_feature=audio_feature,
+    '''
+    print(f"audio_feature : {audio_feature.shape}")
+    print(f"video_feature : {video_feature.shape}")
+    print(f"num_input_frames : {num_input_frames}")
+    print(f"video_token_per_frame : {video_token_per_frame}")
+    '''
+
+    audio_mask = prune_dycoke(
+        feature=audio_feature,
         prune_ratio=audio_prune_ratio,
+        num_tokens_per_chunk=100,
+    )
+    video_mask = prune_dycoke(
+        feature=video_feature,
+        prune_ratio=video_prune_ratio,
+        num_tokens_per_chunk=576,
     )
 
+    global_mask = torch.ones(flat_embeds.size(0), dtype=torch.bool, device=device)
+    assert audio_mask.shape[0] == audio_indices.shape[0]
+    assert video_mask.shape[0] == video_indices.shape[0]
+    global_mask[video_indices] = video_mask
+    global_mask[audio_indices] = audio_mask
+
+    if is_batched:
+        input_embeds_out = flat_embeds.reshape(B, L, D)
+    else:
+        input_embeds_out = flat_embeds
+    #print(f"audio_feature")
+    return input_embeds_out, global_mask
 
 
+    '''
     if num_input_frames % 4 == 0:
         group_count = num_input_frames // 4
         num_video_tokens_per_group = max(1, video_feature.shape[0] // group_count)
         num_audio_tokens_per_group = max(1, audio_feature.shape[0] // group_count)
+        
+        print(f"num_video_tokens_per_group : {num_video_tokens_per_group}")
+        print(f"num_audio_tokens_per_group : {num_audio_tokens_per_group}")
+
 
         video_merging_ratios = [video_prune_ratio] * group_count
 
@@ -259,7 +225,7 @@ def dycoke(
             input_embeds_out = flat_embeds
 
         return input_embeds_out, global_mask
-
+    
 
     num_video_tokens = video_feature.shape[0]
     num_audio_tokens = audio_feature.shape[0]
@@ -336,8 +302,7 @@ def dycoke(
         input_embeds_out = flat_embeds
 
     return input_embeds_out, global_mask
-
-
+    '''
 
 
 

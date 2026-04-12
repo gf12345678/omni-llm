@@ -483,6 +483,7 @@ class Qwen2_5OmniPreTrainedModelForConditionalGeneration(Qwen2_5OmniPreTrainedMo
                         t_ntoken_per_chunk = int(position_id_per_seconds * seconds_per_chunk)
                         video_chunk_indexes = self.get_chunked_index(video_llm_pos_ids[0], t_ntoken_per_chunk, st_idx)
                         audio_chunk_indexes = self.get_chunked_index(audio_llm_pos_ids[0], t_ntoken_per_chunk, st_idx)
+                        
                         """
                         # debug
                         video_chunk_lengths = [chunk_end - chunk_start for chunk_start, chunk_end in video_chunk_indexes]
