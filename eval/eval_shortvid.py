@@ -90,7 +90,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Distributed evaluation for WorldSense, AVUT and ShortVid."
     )
-    available_wrapper_methods = ["base", "omnizip", "omni_llm", "dycoke"]
+    available_wrapper_methods = ["base", "omnizip", "omni_llm", "dycoke", "fastv"]
     available_model_types = ["qwenomni3b", "qwenomni7b"]
     parser.add_argument(
         "--WAPPER-METHOD",
@@ -131,20 +131,26 @@ def parse_args():
         "--OMNIZIP_RHO_AUDIO",
         "--OMNI_LLM_RHO_AUDIO",
         "--DYCOKE_RHO_AUDIO",
+        "--FASTV_RHO_AUDIO",
         dest="rho_audio",
         type=float,
         default=None,
-        help="Shared audio pruning ratio. Interpreted by the selected wrapper method.",
+        help=(
+            "Shared audio pruning ratio. Interpreted by the selected wrapper method. "
+            "For FastV, audio tokens are pruned together with image/video tokens by --FASTV_R."
+        ),
     )
     parser.add_argument(
         "--RHO_VIDEO",
         "--OMNIZIP_RHO_VIDEO",
         "--OMNI_LLM_RHO_VIDEO",
         "--DYCOKE_RHO_VIDEO",
+        "--FASTV_RHO_VIDEO",
+        "--FASTV_R",
         dest="rho_video",
         type=float,
         default=None,
-        help="Shared video pruning ratio. Interpreted by the selected wrapper method.",
+        help="Shared video pruning ratio. For FastV this is fastv_r, the image/video/audio token pruning ratio.",
     )
     parser.add_argument(
         "--OMNIZIP_G",
@@ -158,6 +164,12 @@ def parse_args():
         default=0.05,
         help="Contextual ratio",
     )
+    parser.add_argument(
+        "--FASTV_K",
+        type=int,
+        default=2,
+        help="FastV pruning layer K. The script ranks tokens from layer K-1 and prunes before layer K.",
+    )
     return parser.parse_args()
 
 
@@ -169,13 +181,17 @@ def resolve_wrapper_rhos(args):
             rho_audio = 0.5
         elif args.WAPPER_METHOD == "dycoke":
             rho_audio = 0.6
+        elif args.WAPPER_METHOD == "fastv":
+            rho_audio = 0.0
         else:
             rho_audio = 0.0
     else:
         rho_audio = args.rho_audio
 
     if args.rho_video is None:
-        if args.WAPPER_METHOD in {"omnizip", "omni_llm", "dycoke"}:
+        if args.WAPPER_METHOD == "fastv":
+            rho_video = 0.5
+        elif args.WAPPER_METHOD in {"omnizip", "omni_llm", "dycoke"}:
             rho_video = 0.6
         else:
             rho_video = 0.0
@@ -225,6 +241,8 @@ def build_run_config_label(args):
         prune_label = f"oa{rho_audio:g}_ov{rho_video:g}"
     elif args.WAPPER_METHOD == "dycoke":
         prune_label = f"oa{rho_audio:g}_ov{rho_video:g}_audio50f"
+    elif args.WAPPER_METHOD == "fastv":
+        prune_label = f"k{args.FASTV_K}_r{rho_video:g}"
     else:
         prune_label = "no_prune"
     return f"{args.WAPPER_METHOD}_{model_label}_{prune_label}"
@@ -300,14 +318,20 @@ def load_model(model_path, cuda_id, args):
         from omni_llm.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
     elif args.WAPPER_METHOD == "dycoke":
         from dycoke.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
+    elif args.WAPPER_METHOD == "fastv":
+        from FastV.modeling_qwen2_5_omni import Qwen2_5OmniForConditionalGeneration
     else:
         from transformers import Qwen2_5OmniForConditionalGeneration
+
+    attn_implementation = "flash_attention_2"
+    if args.WAPPER_METHOD == "fastv":
+        logger.info("FastV uses flash attention with compact attention-score extraction.")
 
     model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
         model_path,
         torch_dtype="auto",
         device_map=cuda_id,
-        attn_implementation="flash_attention_2",
+        attn_implementation=attn_implementation,
     )
 
     rho_audio, rho_video = resolve_wrapper_rhos(args)
@@ -326,12 +350,18 @@ def load_model(model_path, cuda_id, args):
         "audio_prune_ratio": max(0.0, min(1.0, rho_audio)),
         "video_prune_ratio": max(0.0, min(1.0, rho_video)),
     }
+    fastv_config = {
+        "use_fastv": True,
+        "fastv_k": args.FASTV_K,
+        "fastv_r": max(0.0, min(1.0, rho_video)),
+    }
 
     if hasattr(model, "thinker"):
         thinker = model.thinker
         thinker.omnizip_config = omnizip_config if args.WAPPER_METHOD == "omnizip" else None
         thinker.omni_llm_config = omni_llm_config if args.WAPPER_METHOD == "omni_llm" else None
         thinker.dycoke_config = dycoke_config if args.WAPPER_METHOD == "dycoke" else None
+        thinker.fastv_config = fastv_config if args.WAPPER_METHOD == "fastv" else None
 
     processor = Qwen2_5OmniProcessor.from_pretrained(model_path)
     return model, processor
@@ -418,6 +448,9 @@ def _extract_predicted_option(resp_text, candidates):
 
 
 def _run_mcq_inference(video_path, question, candidates, processor, model):
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+
     candidates_text = "\n".join(candidates)
     prompt = f"{question}\nOptions:\n{candidates_text}\nAnswer with the option's letter from the given choices directly."
     conversation = [
@@ -467,7 +500,10 @@ def _run_mcq_inference(video_path, question, candidates, processor, model):
         return predicted_answer, resp_text
         
     except Exception as e:
-        return None, f"Error: {str(e)}"
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        logger.exception(f"Inference failed for {video_path}")
+        return None, f"Error: {type(e).__name__}: {str(e)}"
 
 
 def evaluate_sample_WorldSense(sample, video_dir, processor, model):
@@ -678,8 +714,8 @@ if __name__ == "__main__":
     args = parse_args()
 
     model_path_map = {
-        "qwenomni3b": "/home/gaofeng/Qwen2.5-Omni-3B",
-        "qwenomni7b": "/home/gaofeng/omni-dataset/Qwen2.5-Omni-7B",
+        "qwenomni3b": "/home/user/project/model/Qwen2.5-Omni-3B",
+        "qwenomni7b": "/home/user/project/model/Qwen2.5-Omni-7B",
     }
     model_path = model_path_map[args.model_type]
     current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -689,8 +725,8 @@ if __name__ == "__main__":
 
     benchmark = {
         "WorldSense": {
-            "data_path": "/home/gaofeng/omni-dataset/WorldSense/worldsense_qa.json",
-            "video_dir": "/home/gaofeng/omni-dataset/WorldSense/videos",
+            "data_path": "/home/user/project/dataset/WorldSense/worldsense_qa.json",
+            "video_dir": "/home/user/project/dataset/WorldSense/video",
             "output_dir": os.path.join(run_output_dir, "WorldSense"),
             "load_fn": load_benchmark_WorldSense_data,
             "evaluate_fn": evaluate_sample_WorldSense,
